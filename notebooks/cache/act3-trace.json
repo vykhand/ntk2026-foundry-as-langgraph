@@ -1,0 +1,27 @@
+{
+  "source": "fixture-2026-09-06",
+  "note": "hand-written from the talk's write-up (D-21) (real rehearsal call, 2026-09-06): 21 spans, 4 chat calls, 3 tool calls, nested Invoke Agent -> invoke_agent LangGraph -> Chat gpt-5.4-mini -> Execute Tool preferences -> program_search -> clash_checker, agent.version 3. No live KQL access when this fixture was written, so exact per-span durations are illustrative, not a portal export.",
+  "spans": [
+    {"name": "Invoke Agent", "kind": "AppRequests", "op": "invoke_agent", "depth": 0, "start_ms": 0, "duration_ms": 7050},
+    {"name": "invoke_agent (LangGraph)", "kind": "AppDependencies", "op": "invoke_agent", "depth": 1, "start_ms": 30, "duration_ms": 6970},
+    {"name": "assistant (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 60, "duration_ms": 900},
+    {"name": "Chat gpt-5.4-mini", "kind": "AppDependencies", "op": "chat", "depth": 3, "start_ms": 80, "duration_ms": 860},
+    {"name": "tools (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 980, "duration_ms": 150},
+    {"name": "Execute Tool · preferences", "kind": "AppDependencies", "op": "execute_tool", "depth": 3, "start_ms": 1000, "duration_ms": 120},
+    {"name": "assistant (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 1150, "duration_ms": 1430},
+    {"name": "Chat gpt-5.4-mini", "kind": "AppDependencies", "op": "chat", "depth": 3, "start_ms": 1170, "duration_ms": 1390},
+    {"name": "tools (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 2600, "duration_ms": 380},
+    {"name": "Execute Tool · program_search", "kind": "AppDependencies", "op": "execute_tool", "depth": 3, "start_ms": 2620, "duration_ms": 350},
+    {"name": "assistant (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 3000, "duration_ms": 1580},
+    {"name": "Chat gpt-5.4-mini", "kind": "AppDependencies", "op": "chat", "depth": 3, "start_ms": 3020, "duration_ms": 1540},
+    {"name": "tools (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 4610, "duration_ms": 110},
+    {"name": "Execute Tool · clash_checker", "kind": "AppDependencies", "op": "execute_tool", "depth": 3, "start_ms": 4630, "duration_ms": 80},
+    {"name": "assistant (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 4740, "duration_ms": 2020},
+    {"name": "Chat gpt-5.4-mini", "kind": "AppDependencies", "op": "chat", "depth": 3, "start_ms": 4760, "duration_ms": 1980},
+    {"name": "END (node)", "kind": "AppDependencies", "op": "", "depth": 2, "start_ms": 6790, "duration_ms": 40},
+    {"name": "checkpoint save", "kind": "AppDependencies", "op": "", "depth": 1, "start_ms": 6850, "duration_ms": 60},
+    {"name": "gen_ai.response emit", "kind": "AppTraces", "op": "", "depth": 1, "start_ms": 6930, "duration_ms": 20},
+    {"name": "telemetry flush", "kind": "AppTraces", "op": "", "depth": 1, "start_ms": 6960, "duration_ms": 15},
+    {"name": "HTTP response", "kind": "AppRequests", "op": "", "depth": 0, "start_ms": 6995, "duration_ms": 55}
+  ]
+}

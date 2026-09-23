@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/vykhand/ntk2026-foundry-as-langgraph/fixtures/program.schema.json",
+  "title": "NTK program fixture",
+  "description": "Normalized conference program used by the NTK asistent agent. Field set from the Talk 2 scenario spec (id, title, speaker, room, start, end, track, level, demo_pct, lang) plus `synthetic` (joke-target flag), `tags` and `abstract` (search only).",
+  "type": "object",
+  "required": ["meta", "talks"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["source", "generated_at", "conference", "timezone", "days"],
+      "additionalProperties": true,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": ["synthetic", "ntk.si-export", "ntk.si-scrape", "manual"],
+          "description": "Data-plan option that produced this file (scenario spec §Data plan)."
+        },
+        "generated_at": { "type": "string", "format": "date" },
+        "conference": { "type": "string" },
+        "venue": { "type": "string" },
+        "timezone": { "type": "string", "description": "IANA zone used for naive times; all start/end carry explicit offsets anyway." },
+        "days": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "format": "date" }
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "talks": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/talk" }
+    }
+  },
+  "$defs": {
+    "talk": {
+      "type": "object",
+      "required": ["id", "title", "speaker", "room", "start", "end", "track", "level", "demo_pct", "lang", "synthetic"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^t-[0-9]{3}$" },
+        "title": { "type": "string", "minLength": 3 },
+        "speaker": { "type": "string", "minLength": 2 },
+        "room": { "type": "string", "minLength": 2 },
+        "start": { "type": "string", "format": "date-time", "description": "ISO 8601 with UTC offset, e.g. 2026-09-22T09:00:00+02:00" },
+        "end": { "type": "string", "format": "date-time" },
+        "track": {
+          "type": "string",
+          "enum": ["AI", "Azure", "Varnost", "Podatki", "Razvoj", "Microsoft 365", "Infrastruktura", "Poslovno", "Keynote"]
+        },
+        "level": { "type": "integer", "enum": [100, 200, 300, 400] },
+        "demo_pct": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "lang": { "type": "string", "enum": ["sl", "en"] },
+        "synthetic": {
+          "type": "boolean",
+          "description": "True ONLY for the one planted joke-target talk. Comedic filtering may target this talk and nothing else."
+        },
+        "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "abstract": { "type": "string" }
+      }
+    }
+  }
+}

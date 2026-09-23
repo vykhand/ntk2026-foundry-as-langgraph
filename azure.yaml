@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+#
+# Hand-written from the official foundry-samples langgraph/responses manifests (Sept 2026),
+# because `azd ai agent init` requires an Azure login even for local scaffolding (see the talk's write-up).
+#
+# Local:  azd ai agent run            (or: uv run act1)
+# Cloud:  azd provision (ONLY after the subscription/project is confirmed) → azd deploy
+
+requiredVersions:
+  azd: '>=1.27.1'
+  extensions:
+    azure.ai.agents: '>=1.0.0-beta.13'
+
+name: ntk-asistent
+
+services:
+  # Foundry project + model deployment. Declared for `azd provision`; nothing is created until
+  # that command runs. Region/model are pending confirmation (West Europe, project after 25 Jun 2026).
+  ai-project:
+    host: azure.ai.project
+    deployments:
+      - name: gpt-5.4-mini
+        model:
+          format: OpenAI
+          name: gpt-5.4-mini
+          version: '2026-03-17'
+        sku:
+          name: GlobalStandard
+          # Capacity is in units of 1,000 TPM: 200 = 200,000 TPM and 200 requests/minute
+          # (confirmed against the deployment's own properties.rateLimits).
+          #
+          # This was 5 until 2026-09-06 — a misreading of `az cognitiveservices usage list`,
+          # whose `limit` is also in those units. The West Europe gpt-5.4-mini GlobalStandard
+          # quota on the "MSDN Subscription" (see the talk's write-up) is
+          # 6,000 units = 6,000,000 TPM, not 6,000 TPM, with 255 units allocated. The 5 units
+          # were what made every batch eval return rate-limited rows (the talk's write-up, D-22).
+          capacity: 200
+
+  ntk-asistent:
+    host: azure.ai.agent
+    kind: hosted
+    name: ntk-asistent
+    displayName: NTK asistent
+    description: >-
+      Plain LangGraph agent (MessagesState + three deterministic tools) that builds an attendee's
+      personal NT konferenca 2026 agenda in Slovene. Hosted over the Responses protocol via
+      langchain_azure_ai.agents.hosting; the agent package contains no Foundry code.
+    metadata:
+      tags:
+        - AI Agent Hosting
+        - Responses Protocol
+        - LangGraph
+        - LangChain
+        - Python
+        - NTK 2026
+    # The whole repo is the deployable unit; .agentignore trims the ZIP to src/, fixtures/, prompts/.
+    project: .
+    language: python
+    codeConfiguration:
+      runtime: python_3_13
+      entryPoint: '-m langchain_azure_ai.agents.hosting.run --protocol responses'
+    # Local `azd ai agent run` uses the same entrypoint as the cloud (reads ./langgraph.json).
+    startupCommand: python -m langchain_azure_ai.agents.hosting.run --protocol responses
+    uses:
+      - ai-project
+    protocols:
+      - protocol: responses
+        version: 2.0.0
+    env:
+      AZURE_AI_MODEL_DEPLOYMENT_NAME: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+      # Every config change below is a new immutable version (talk gotcha #1).
+      NTK_ATTENDEE: maja
+      NTK_PROMPT_FILE: prompts/baseline_v1.md
+      # v4 (2026-09-06): the guard node. Deliberately the *only* change from v3 — same prompt,
+      # same model — so the version diff in the portal is one env var and the Act 4 claim
+      # ("the graph got better, not the prompt") is visible in the platform's own audit trail.
+      NTK_ENFORCE_CONSTRAINTS: '1'
+      # Act 3 tracing toggles (enable_auto_tracing() is wired in hosting/app.py in Phase 3)
+      OTEL_AUTO_CONFIGURE_AZURE_MONITOR: 'true'
+      AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED: 'true'
+    container:
+      resources:
+        cpu: '0.5'
+        memory: 1Gi
+
+infra:
+  provider: microsoft.foundry

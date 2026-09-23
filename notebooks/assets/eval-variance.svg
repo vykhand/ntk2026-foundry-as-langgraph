@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 614" width="980" height="614" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="980" height="614" fill="#ffffff"/>
+<text x="300" y="46" font-size="27" font-weight="700" fill="#1c1e21">Isti prompt, trije zagoni</text>
+<text x="300" y="74" font-size="16" fill="#8a8f98">ntk_preferences · 22 vprašanj na zagon · gpt-5.4-mini</text>
+<line x1="300.0" y1="94" x2="300.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="300.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">0.90</text>
+<line x1="418.0" y1="94" x2="418.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="418.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">0.92</text>
+<line x1="536.0" y1="94" x2="536.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="536.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">0.94</text>
+<line x1="654.0" y1="94" x2="654.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="654.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">0.96</text>
+<line x1="772.0" y1="94" x2="772.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="772.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">0.98</text>
+<line x1="890.0" y1="94" x2="890.0" y2="526" stroke="#e6e8eb" stroke-width="1"/>
+<text x="890.0" y="548" font-size="14" fill="#8a8f98" text-anchor="middle">1.00</text>
+<text x="276" y="145.0" font-size="17" fill="#1c1e21" text-anchor="end">baseline_v0 (naivni prompt)</text>
+<text x="276" y="167.0" font-size="14" fill="#8a8f98" text-anchor="end">1 zagon</text>
+<line x1="300" y1="149.0" x2="890" y2="149.0" stroke="#f0f1f3" stroke-width="1"/>
+<circle cx="553.7" cy="149.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<text x="906" y="155.0" font-size="16" fill="#6d5ae6" font-weight="600">0.943</text>
+<text x="276" y="227.0" font-size="17" fill="#1c1e21" text-anchor="end">baseline_v1 (izdelan prompt)</text>
+<text x="276" y="249.0" font-size="14" fill="#8a8f98" text-anchor="end">3 zagonov · razpon 0.080</text>
+<line x1="300" y1="231.0" x2="890" y2="231.0" stroke="#f0f1f3" stroke-width="1"/>
+<line x1="418.0" y1="231.0" x2="890.0" y2="231.0" stroke="#6d5ae6" stroke-width="7" stroke-linecap="round" opacity="0.28"/>
+<circle cx="713.0" cy="231.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="418.0" cy="231.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="231.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<text x="906" y="237.0" font-size="16" fill="#6d5ae6" font-weight="600">0.963</text>
+<text x="276" y="309.0" font-size="17" fill="#1c1e21" text-anchor="end">improved_v2 (popravek prompta)</text>
+<text x="276" y="331.0" font-size="14" fill="#8a8f98" text-anchor="end">2 zagonov · razpon 0.023</text>
+<line x1="300" y1="313.0" x2="890" y2="313.0" stroke="#f0f1f3" stroke-width="1"/>
+<line x1="488.8" y1="313.0" x2="624.5" y2="313.0" stroke="#6d5ae6" stroke-width="7" stroke-linecap="round" opacity="0.28"/>
+<circle cx="624.5" cy="313.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="488.8" cy="313.0" r="7.5" fill="#6d5ae6" stroke="#ffffff" stroke-width="2"/>
+<text x="906" y="319.0" font-size="16" fill="#6d5ae6" font-weight="600">0.944</text>
+<text x="276" y="391.0" font-size="17" fill="#1c1e21" text-anchor="end">baseline_v1 + guard vozlišče</text>
+<text x="276" y="413.0" font-size="14" fill="#8a8f98" text-anchor="end">6 zagonov · razpon 0.030</text>
+<line x1="300" y1="395.0" x2="890" y2="395.0" stroke="#f0f1f3" stroke-width="1"/>
+<line x1="713.0" y1="395.0" x2="890.0" y2="395.0" stroke="#1f9d6a" stroke-width="7" stroke-linecap="round" opacity="0.28"/>
+<circle cx="754.3" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="754.3" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="713.0" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="395.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<text x="906" y="401.0" font-size="16" fill="#1f9d6a" font-weight="600">0.987</text>
+<text x="276" y="473.0" font-size="17" fill="#1c1e21" text-anchor="end">guard + popravek dneva</text>
+<text x="276" y="495.0" font-size="14" fill="#8a8f98" text-anchor="end">3 zagonov · razpon 0.000</text>
+<line x1="300" y1="477.0" x2="890" y2="477.0" stroke="#f0f1f3" stroke-width="1"/>
+<line x1="890.0" y1="477.0" x2="890.0" y2="477.0" stroke="#1f9d6a" stroke-width="7" stroke-linecap="round" opacity="0.28"/>
+<circle cx="890.0" cy="477.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="477.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="890.0" cy="477.0" r="7.5" fill="#1f9d6a" stroke="#ffffff" stroke-width="2"/>
+<text x="906" y="483.0" font-size="16" fill="#1f9d6a" font-weight="600">1.000</text>
+<text x="300" y="588" font-size="14" fill="#8a8f98">Vsaka pika je en zagon celotnega nabora. Desno: povprečje.</text>
+</svg>

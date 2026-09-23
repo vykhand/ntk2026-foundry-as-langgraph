@@ -1,0 +1,9 @@
+{
+  "question": "Ime mi je Nina. Zanima me čim več predavanj o AI v torek, brez izpita pred deveto.",
+  "answer": "Pozdravljena Nina!  \nKer si navedla, da želiš predavanja o AI v torek, pred 9 h, bom poiskala vse AI predavanja na 2026‑09‑22, ki se začnejo pred 9 h. Če ti kateri od predlogov ne ustreza, mi sporoči in prilagodim urnik.",
+  "tool_calls": [
+    "preferences"
+  ],
+  "response_id": "caresp_597dc8221127123700HO3fGnez2abPdf9HipzxatXjaMfnLODj",
+  "elapsed_seconds": 4.4
+}

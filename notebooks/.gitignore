@@ -1,0 +1,3 @@
+# marimo's local session-state cache (written by `marimo edit`/`marimo check`/`marimo export`) —
+# machine-local tooling state, not part of the notebook.
+__marimo__/

@@ -1,0 +1,2541 @@
+{
+  "meta": {
+    "source": "ntk.si-export",
+    "generated_at": "2026-09-22",
+    "conference": "NT konferenca 2026",
+    "venue": "Grand Hotel Bernardin, Portorož",
+    "timezone": "Europe/Ljubljana",
+    "days": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23"
+    ],
+    "note": "The real programme from https://www.ntk.si/api/clientapi/schedule (hash 7a50135a71665c9bcd8487b490ec9269), normalised by scripts/fetch_program.py: talks only, names only — no biographies, photos or profile links. Exactly one talk carries synthetic=true: the planted joke target, in a room ntk.si does not schedule."
+  },
+  "talks": [
+    {
+      "id": "t-001",
+      "title": "What's new in C# 15",
+      "speaker": "Damir Arh",
+      "room": "Adria",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "Since a new version of .NET is being released every autumn, C# has also adopted the same cadence. So, this November C# 15 is going to be released alongside with .NET 11. In this talk, we will take a look at its new features and how they will affect the code we will be writing (and reading) in the future. Wherever it is relevant, we will refresh our memory about the features of previous language versions, on which this year's features are based. As much as possible, we will try out the new features ourselves."
+    },
+    {
+      "id": "t-002",
+      "title": "Perfect Data Model 3.0 for Power Pivot and Power BI",
+      "speaker": "Gašper Kamenšek",
+      "room": "Emerald 1",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "Podatki",
+      "level": 300,
+      "demo_pct": 98,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Power BI",
+        "Podatki in analitika"
+      ],
+      "abstract": "This is a third rendition of my \"Perfect Data Model\" series, and it speaks more to the big picture of today's Data requirements than any huge novelties in Data modeling. Surprisingly, in the end, we will even show a clear misalignment between today's expectations and the newest tools in modeling."
+    },
+    {
+      "id": "t-003",
+      "title": "Protecting Traditional Active Directory Environments in Modern Times",
+      "speaker": "Jure Jereb",
+      "room": "Emerald 2",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Active Directory is still the identity backbone of most enterprises – and still the #1 target in modern ransomware attacks. This session delivers some easy (and some not-so-easy) and quick (and some not-so-quick) practical tips for hardening on-premises AD."
+    },
+    {
+      "id": "t-004",
+      "title": "AI v proizvodnem podjetju: od prvih agentov do AI inženirjev",
+      "speaker": "Gašper Rupnik",
+      "room": "Europa B",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 40,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "SharePoint",
+        "SQL Server",
+        "Azure PaaS",
+        "Containers",
+        "Teams",
+        "Fabric",
+        "Entra",
+        "Microsoft 365",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Kako umetno inteligenco iz eksperimenta spremeniti v tehnologijo, ki dejansko pomaga različnim delom proizvodnega podjetja? Na eni strani imamo obsežno zakonodajo in tehnično dokumentacijo, ki jo morajo zaposleni poznati in pravilno interpretirati, na drugi marketing, ki želi hitreje ustvarjati vizualne vsebine, v ozadju pa ogromne količine podatkov iz MES, SCADA in drugih proizvodnih sistemov. Vsak od teh primerov zahteva nekoliko drugačen pristop, skupni izziv pa ostaja enak: kako podatke, obstoječe sisteme in sodobne AI modele povezati v uporabne in zanesljive rešitve. Na predavanju bom skozi praktične izkušnje iz podjetja INCOM pokazal, kako smo se teh izzivov lotili tehnološko. Pogledali bomo arhitekturo rešitev, zajem in indeksiranje podatkov, povezovanje strukturiranih in nestrukturiranih virov, uporabo različnih jezikovnih in multimodalnih modelov ter integracijo AI z obstoječim Microsoft okoljem. Pri tem bomo povezali tehnologije, kot so Azure, Microsoft Fabric, .NET Aspire, Microsoft Agent Framework in Microsoft 365, ter pogledali, kakšno vlogo ima posamezna tehnologija v celotni arhitekturi. Osredotočili se bomo tudi na vprašanja, ki se pojavijo šele, ko AI zapusti fazo prototipa: kje naj teče poslovna in API logika, kako AI varno približati internim podatkom, kako iste storitve ponovno uporabiti v različnih kanalih ter kako povezati oblak s proizvodnimi sistemi. Posebej bomo pogledali tudi, kako lastne AI rešitve pripeljati neposredno v Microsoft 365 Copilot – kdaj zadostuje deklarativni agent, kdaj potrebujemo custom engine agenta, kako vanju vključiti obstoječe API-je in lastno logiko ter kakšne omejitve prinaša posamezen pristop. Cilj je pokazati praktično pot od posameznih AI rešitev do skupne platforme, na kateri lahko postopoma gradimo vse bolj specializirane sisteme in AI inženirje."
+    },
+    {
+      "id": "t-005",
+      "title": "Why Windows Security Keeps Failing: BitLocker, WinRE, DMA and Other Uncomfortable Stories",
+      "speaker": "Primož Bratanič",
+      "room": "Europa D",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Windows 11",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Full-disk encryption is supposed to be the last line of defense when a laptop is lost, stolen or otherwise falls into the wrong hands. But good cryptography cannot save a system whose surrounding trust chain makes the wrong decisions. This lecture reviews several Windows security failures from the last few years that demonstrate exactly that problem, focusing on attacks where BitLocker remains cryptographically intact while access to the protected system or data becomes possible anyway. We will follow the chain from firmware, TPM, Secure Boot and DMA protection through the Windows boot process and Windows Recovery Environment, examining recent BitLocker security-feature bypasses, the 2025 WinRE-related vulnerability wave, 2026’s YellowKey/CVE-2026-45585, TPM-only assumptions and physical DMA attack paths. Rather than treating each CVE as an isolated programming mistake, the talk looks for the recurring architectural theme: recovery features, backwards compatibility, hardware trust and usability decisions repeatedly create privileged paths around controls that appear much stronger from the user interface."
+    },
+    {
+      "id": "t-006",
+      "title": "What's new in Copilot Studio",
+      "speaker": "Uros Kastelic",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Discover the latest innovations in Microsoft Copilot Studio and learn how enterprise AI agents are becoming easier to build, integrate, and manage than ever before. In this session we will talk about the new updates in Copilot Studio, which are not only UI related but much more. From Copilot-harnessed agents and reusable skills to VS Code development experiences and GitHub Copilot-assisted creation, we'll explore the newest capabilities that are redefining agent development. Through a practical demo you'll see how makers can rapidly build intelligent agents that connect to Microsoft 365, Dynamics 365, Power Platform, and external systems."
+    },
+    {
+      "id": "t-007",
+      "title": "JSON in the world of MSSQL",
+      "speaker": "Damir Matešić",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T09:00:00+02:00",
+      "end": "2026-09-21T09:45:00+02:00",
+      "track": "Podatki",
+      "level": 200,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "SQL Server",
+        "Podatki in analitika"
+      ],
+      "abstract": "JSON (JavaScript Object Notation) is a language-independent, widely adopted, open standard format used for data exchange between applications and services. Microsoft SQL Server introduced JSON support in SQL Server 2016, with further enhancements added in SQL Server 2022. Now, with the release of SQL Server 2025, are we finally at the point where JSON receives the full support it deserves? SQL 2025 brings long-awaited features such as a native JSON data type, JSON indexing, and other critical improvements that fill the gaps and help complete the story. In this session, we'll explore the evolution and current state of JSON support in MS SQL Server—accompanied by numerous practical examples demonstrating its usage and capabilities."
+    },
+    {
+      "id": "t-008",
+      "title": "What Can Attackers See? Managing External Risk in the Age of AI",
+      "speaker": "Jakob Premrn",
+      "room": "Adria",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 40,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Linux",
+        "Azure Stack / Azure pack",
+        "Web development",
+        "Windows 11",
+        "Defender",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Many organizations have mature vulnerability management programs yet still struggle with breaches originating from exposed systems. Why? Because attackers don't see your internal asset inventory. They see your external attack surface. This presentation examines why internal vulnerability management is no longer sufficient, how AI is accelerating vulnerability discovery and exploit chaining, and why external risk management is becoming a critical cybersecurity capability. Attendees will learn practical methods for discovering exposed assets, measuring external risk, and evaluating modern attack surface management platforms such as Microsoft EASM, Cortex Xpanse, Halo Security, and Shodan."
+    },
+    {
+      "id": "t-009",
+      "title": "Highly Available? Kubernetes Doesn't Guarantee That",
+      "speaker": "Andrej Turk",
+      "room": "Emerald 1",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Kubernetes gives us powerful tools to build resilient systems, but simply running multiple replicas doesn't automatically make an application highly available. What happens when a node is upgraded, a pod is terminated, or a new version is rolled out while users are actively making requests? We'll explore what it really takes to keep an application highly available when Kubernetes performs maintenance, workloads are disrupted, or failures occur. We'll look at the responsibilities on both sides: what Kubernetes can do to keep workloads available, and what the application itself needs to do to handle disruption gracefully. The goal is to understand how these two layers work together to build applications that remain available when the platform changes or things inevitably fail."
+    },
+    {
+      "id": "t-010",
+      "title": "Boosting Database Development Productivity with GitHub Copilot and SQL Server Management Studio",
+      "speaker": "Giampaolo Tucci",
+      "room": "Emerald 2",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Microsoft 365",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "Produktivnost uporabnikov"
+      ],
+      "abstract": "AI-assisted development is changing the way we maintain database. In this session, we will explore how GitHub Copilot integrates with SSMS to streamline everyday tasks, from generating SQL queries and stored procedures and optimizing existing code and db structure. Learn practical strategies that help developers and DBAs reduce manual effort and focus on higher-value activities."
+    },
+    {
+      "id": "t-011",
+      "title": "Regular expressions in SQL Server 2025 - a deep dive",
+      "speaker": "Tomaž Kaštrun",
+      "room": "Europa B",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Podatki",
+      "level": 300,
+      "demo_pct": 70,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "SQL Server",
+        "Podatki in analitika"
+      ],
+      "abstract": "Regular expressions are available SQL Server 2025 — and they're worth getting excited about. For years, advanced pattern matching in T-SQL meant wrestling with workarounds and long code. Not anymore. Session will start by comparing regex to the familiar LIKE operator, then go deeper as we explore what makes regex genuinely powerful. SQL Server 2025 ships with seven native functions • REGEXP_LIKE, • REGEXP_REPLACE, • REGEXP_SUBSTR, • REGEXP_INSTR, • REGEXP_COUNT, • REGEXP_MATCHES, and • REGEXP_SPLIT_TO_TABLE We will cover all of them in demos from pattern basics, data validation, extraction from messy text, find/replace, splitting, and performance comparisons, trade-offs and typical caveats."
+    },
+    {
+      "id": "t-012",
+      "title": "Agent 365 Dos and Don’ts",
+      "speaker": "Frane Borozan",
+      "room": "Europa D",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Agent 365 isn’t just another AI announcement — it’s Microsoft’s vision for how companies will manage an entire workforce of AI agents. Fresh out of preview and now generally available, Agent 365 introduces a new “control plane” for AI inside Microsoft 365, giving organizations the ability to discover, govern, secure, and scale autonomous agents across Teams, Outlook, SharePoint, Windows, and even third-party platforms. In this session, we’ll unpack why Microsoft believes the future of work will involve billions of AI agents acting as digital teammates — and why governance, security, and visibility suddenly matter more than ever. From “shadow AI” running on employee devices to intelligent agents capable of taking action across enterprise systems, Agent 365 is redefining how organizations think about productivity, automation, and trust. Expect real-world scenarios, launch insights, and a practical look at what happens when AI moves beyond copilots and becomes part of the operational fabric of the workplace."
+    },
+    {
+      "id": "t-013",
+      "title": "The Road to Proxmox: Lessons, Pitfalls, and Survival",
+      "speaker": "Rok Goli, Branko Podboj",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 300,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "Linux",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "Eno predavanje, dva predavatelja, dva pogleda, a zgolj ena zgodba. Prehod na Proxmox je na papirju lahko videti precej preprost: izbereš platformo, preseliš virtualne strežnike, prilagodiš spremljajoče storitve in nadaljuješ z delom. V praksi pa se hitro izkaže, da je hipervizor pogosto še najpreprostejši del celotne zgodbe. Rok Goli, COO v podjetju Akson, bo predstavil ozadje projekta: zakaj so se odločili za spremembo tehnološke usmeritve, kakšne cilje so si zastavili, katere zahteve so morali upoštevati in kako so se lotili načrtovanja prehoda na novo virtualizacijsko platformo. Nato vas bo Branko Podboj, Open Source Solution Architect, popeljal globlje v tehnični del zgodbe – od arhitekturnih odločitev in načrtovanja migracije do strežniške in storage infrastrukture, omrežja, varnostnega kopiranja, visoke razpoložljivosti, upravljanja okolja ter številnih podrobnosti, ki se pokažejo šele pri delu z dejanskimi produkcijskimi sistemi. Predavatelja bosta predstavila, kaj je delovalo, kaj ni, kaj je bilo na začetku podcenjeno in kaj bi danes naredila drugače. Ne glede na to, ali prihajate iz okolja VMware, Hyper-V ali druge virtualizacijske platforme oziroma infrastrukturo načrtujete na novo, so izzivi pogosto presenetljivo podobni. Brez idealiziranih laboratorijskih scenarijev in brez marketinških obljub – zgolj dejanske izkušnje iz produkcije, tehnične pasti, arhitekturne odločitve in lekcije, pridobljene na poti. Če razmišljate o Proxmoxu kot prihodnji virtualizacijski platformi, že pripravljate migracijo ali pa vas preprosto zanima, ali je primeren tudi za zahtevna enterprise okolja, boste na predavanju dobili tako odgovor na zakaj kot tudi zelo konkreten pogled na kako."
+    },
+    {
+      "id": "t-014",
+      "title": "Ko tehnologija ni največji izziv: kaj odloča o uspehu digitalne transformacije",
+      "speaker": "Gašper Krajnc, Lidija Breznik",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T10:00:00+02:00",
+      "end": "2026-09-21T10:45:00+02:00",
+      "track": "Poslovno",
+      "level": 100,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Project",
+        "Poslovni dan"
+      ],
+      "abstract": "Pri kompleksnih projektih v finančnem sektorju običajno ni največji izziv tehnologija, temveč usklajevanje ljudi, prioritet in pričakovanj. Na letošnji NT konferenci bomo skupaj s partnerjem predstavili praktične izkušnje iz modernizacije prodajnih procesov in digitalnih rešitev. Govorili bomo o povezovanju sodobnih platform z obstoječimi sistemi za različne prodajne kanale, oblikovanju arhitekture, ki podpira nadaljnji razvoj poslovanja, ter pristopih, ki pomagajo ohranjati fokus na poslovnih rezultatih tudi v zahtevnih transformacijskih projektih. Skozi konkreten primer iz prakse bomo pokazali, kako lahko dobro partnerstvo, pragmatičen pristop in skupna vizija prispevajo k uspešni izvedbi korakov digitalne prenove v veliki organizaciji."
+    },
+    {
+      "id": "t-015",
+      "title": "Workshop - Understanding Generative AI",
+      "speaker": "Raffaele Rialdi",
+      "room": "Aurora 1+2",
+      "start": "2026-09-21T10:05:00+02:00",
+      "end": "2026-09-21T13:05:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 40,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "OpenAI",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "This workshop offers a comprehensive introduction to the inner workings of AI models, covering foundational concepts such as local and remote models and an overview of the models' architectural families. Following the overview, the workshop shifts to hands-on activities and discussions with participants about two main areas. First, participants will explore how to maximize the benefits of AI-assisted coding, including instructions, agents, skills, tools, and MCPs. Second, the workshop demonstrates how to seamlessly integrate AI-assisted features into existing applications, such as adding a context-aware chat and smart add-ons that allow users to rapidly benefit from many different types of text transformation and analysis. Most examples will be in .NET, with a few in Python, spanning from inference to writing an MCP to build new tools and expand the capabilities of any modern AI client."
+    },
+    {
+      "id": "t-016",
+      "title": "Od Copilota do Autopilota: prihodnost AI agentov",
+      "speaker": "Edin Buljubašić, Erdis Škrgić",
+      "room": "Adria",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 40,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Predavanje predstavlja naslednji korak v razvoju umetne inteligence znotraj ekosistema Microsoft 365. Medtem, ko je Microsoft 365 Copilot postal nepogrešljiv pomočnik pri pisanju, analiziranju in iskanju informacij, nova generacija agentov premika meje bistveno dlje. Copilot Cowork lahko samostojno izvaja naloge v Microsoft 365, Microsoft Scout pa odpira vrata v svet avtonomnih agentov, ki razumejo širši kontekst uporabnikovega dela in delujejo tudi zunaj klasičnih meja poslovnih aplikacij."
+    },
+    {
+      "id": "t-017",
+      "title": "AI Without Barriers. Security and Control Behind the Scenes.",
+      "speaker": "Uroš Strnišnik",
+      "room": "Emerald 1",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "How can employees use AI agents to analyze contracts, price lists, or other business documents without having to think about data classification, anonymization, or security policies? How can organizations make sure sensitive information remains protected, and AI usage stays secure, compliant, and under control? Through a practical use case, this session will explore the architecture behind the secure use of generative AI and AI agents in enterprise environments. We will show how identity and access management, data classification and protection, automated anonymization and pseudonymization, protection against prompt injection and other AI-specific threats, as well as logging and security monitoring, can work together behind a simple user experience. We will look at technology approaches ranging from identity management, DLP, and data protection solutions to AI Privacy Gateways and dedicated AI Security tools, including their integration with SOC environments for continuous monitoring, incident response, and security testing of AI systems and agents. The session is vendor- and industry-independent and is aimed at CIOs, CISOs, IT and security architects, and professionals introducing generative AI and AI agents into their organizations. Participants will gain a practical overview of the key security building blocks needed to move from uncontrolled AI usage to a secure environment where users can work with AI easily. At the same time, the organization retains control over identities, data, risks, and security."
+    },
+    {
+      "id": "t-018",
+      "title": "Proaktivni nadzor podatkovnih baz v dobi umetne inteligence",
+      "speaker": "Dejan Dragman",
+      "room": "Emerald 2",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 200,
+      "demo_pct": 20,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "SQL Server",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "Odkrijte, kako Redgate Monitor z AI spreminja reaktivno gašenje požarov v proaktivno upravljanje podatkovnih baz. Spoznali bomo AI funkcionalnosti, ki samodejno analizirajo poizvedbe in se prilagajajo ritmu vaših podatkovnih baz za preprečevanje lažnih alarmov. Pokazali bomo tudi, kako lahko z AI in predlogi v naravnem jeziku izboljšate delovanje podatkovnih baz in strežnikov."
+    },
+    {
+      "id": "t-019",
+      "title": "Security? We have it. But can we prove it when needed?",
+      "speaker": "Albin Duraković",
+      "room": "Europa B",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Office 365",
+        "Defender",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Most organizations can say they have MFA, EDR, a SOC and backups. Rather fewer can produce, on short notice, the numbers behind those statements: what coverage actually is, which accounts are exempt, when recovery was last tested, whether a detection fired or merely logged. That gap has been tolerable for a long time. It is becoming less so. This talk walks through the areas that come under scrutiny and the kind of evidence each one involves."
+    },
+    {
+      "id": "t-020",
+      "title": "Beyond AI Assistants – Meet IBM Bob; Več kot AI pomočnik – spoznajte IBM Bob",
+      "speaker": "Klemen Kobilica",
+      "room": "Europa D",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "Razvoj",
+      "level": 100,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Razvoj aplikacij"
+      ],
+      "abstract": "IBM Bob je več kot AI pomočnik za razvijalce – je AI razvojni partner, ki podpira celoten življenjski cikel razvoja aplikacij. Spoznali bomo, kako Bob pospešuje razvoj, avtomatizira razvojne naloge ter odpira pot v agentic software development. Predavanje bo pokazalo, kako AI presega klasično vlogo pomočnika in postaja aktiven sodelavec pri razvoju aplikacij, avtomatizaciji nalog in business automation – od ideje do izvedbe."
+    },
+    {
+      "id": "t-021",
+      "title": "Beyond the Hype: Why DocuWare Leads the Next Generation of AI-Driven Document Management",
+      "speaker": "Gregor Krapež",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T11:00:00+02:00",
+      "end": "2026-09-21T11:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Artificial Intelligence is transforming the way organizations work—but real innovation is no longer about adding AI features. It is about embedding intelligence into business processes while ensuring security, compliance, and trust. In this session, we'll explore how DocuWare is redefining document management through AI-powered automation, Intelligent Document Processing (IDP), and modern cloud technologies. You'll discover how organizations can automatically understand, classify, extract, and process information from documents while maintaining full control over sensitive business data. As cyber threats continue to grow and AI becomes part of everyday business, secure information management has become a strategic advantage. We'll discuss why AI is only as good as the data it can access, and why governance, cybersecurity, compliance, and controlled access are essential for building trustworthy AI solutions. Using real customer scenarios and live demonstrations, we'll demonstrate how organizations can accelerate digital transformation while reducing risk, strengthening resilience, and ensuring that AI operates on trusted information—not uncontrolled data. Join us to discover why intelligent document management is no longer just about documents, but about creating a secure foundation for the next generation of AI-powered business. \"AI without governance is a risk. AI powered by trusted, well-managed information is a competitive advantage.\""
+    },
+    {
+      "id": "t-022",
+      "title": "Poor man's AirMatch for Mikrotik",
+      "speaker": "Jernej Suhadolc",
+      "room": "Adria",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 90,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "I'd like to use my lecture to test an idea I've had for years but never got around to, probably because it isn't economically interesting. It's about MikroTik Wi-Fi access points, which have been proverbially shitty for as long as we've known them. At first they were shitty in absolutely every respect, then they somehow sorted out the radio side, then they introduced CAPsMAN — and now they're shitty in only one remaining area: CAPsMAN has no concept of RRM, radio resource management. So if you place a few of these access points in a space where they can at least partially see each other and connect them to CAPsMAN, the system as a whole will pick frequencies in such a way that the APs then interfere with each other with remarkable efficiency. The interesting part is that MikroTik has all the tools that would let it solve this problem in a relatively simple way. The key one is each radio's ability to background-scan the frequency band we restrict it to, discovering both our own and foreign access points and measuring the signal strength at which it sees them. It can also uniquely identify the APs by their MAC addresses, which are part of the beacon signals they transmit. Unfortunately, MikroTik never actually uses this data anywhere — so during the lecture, we'll try to do it ourselves. The goal of the talk is therefore to build, in 45 minutes, an MVP project delivering functionality that goes well beyond what RouterOS gives us out of the box."
+    },
+    {
+      "id": "t-023",
+      "title": "What attackers knows about us and how to protect beyond perimeter",
+      "speaker": "Marin Jaram",
+      "room": "Emerald 1",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 1,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Today attackers do not wait for your next patching cycle. In this presentation, we will demonstrate how agent-based CTEM (Continuous Threat Exposure Management) replaces traditional patching with autonomous, continuous vulnerability discovery and validation. You will learn how autonomous agents work on behalf of your team—non-stop, autonomously, and error-free—and how to implement this approach within your organization."
+    },
+    {
+      "id": "t-024",
+      "title": "AI is not the problem, Your process is!",
+      "speaker": "Jelena Ruzic",
+      "room": "Emerald 2",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "OpenAI",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "AI coding agents can generate features in minutes, write tests, refactor modules and suggest architectural changes — and they will do all of it with the same confidence regardless of whether your project has any structure or none at all. That is the actual problem. In this session, we will explore what happens when the same AI agent works inside a disciplined engineering workflow versus without one, using a live Next.js application built entirely with GitHub Copilot inside Visual Studio Code. We will compare two versions of the same feature: one built without guardrails, one built with them. The difference is not subtle. The structured version introduced 60% fewer issues overall, 86% fewer critical bugs, and prevented 12 specific defects before a single line of review was written - not because the AI suddenly became smarter, but because the context it worked with was better. The session is not about AI replacing developers. It is about a concrete, observable truth: the quality of AI-generated code is a direct reflection of your architecture guidance, conventions, and repository context. Engineering discipline is no longer just good practice. It is the interface between your team and your AI tooling. You will leave with a practical understanding of how to structure a codebase so that AI agents become a reliable part of your workflow rather than an unpredictable accelerant."
+    },
+    {
+      "id": "t-025",
+      "title": "Nevidni sovražnik v žepu: kako (ne)vidne mobilne grožnje ogrožajo podjetja // The Invisible Threat in Your Pocket: How Mobile Cyber Threats Compromise Enterprise Security",
+      "speaker": "Dalibor Vukovič",
+      "room": "Europa B",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Exchange Server",
+        "Office 365",
+        "SharePoint",
+        "Open Source",
+        "Windows Server",
+        "PowerShell",
+        "GDPR",
+        "Windows 11",
+        "Defender",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Ste se kdaj vprašali, kaj se zgodi, ko se vaša mobilna naprava znajde v stanju varnostne izpostavljenosti? V dinamičnem 20-minutnem praktičnem prikazu bomo prestopili mejo teorije in v varnem testnem okolju v živo prikazali delovanje zlonamerne mobilne aplikacije (Malicious Mobile App). Videli boste, kako nezaščiten telefon v trenutku postane vir informacij ter kako lahko napadalec pridobi vse, kar potrebuje in kar mu potem služi kot odskočna deska za širši napad na organizacijo. Pokazali vam bomo tudi, kako z uporabo napredne mobilne zaščite (MTD) takšna tveganja ne le zaznamo, temveč jih v realnem času popolnoma nevtraliziramo. Ne zamudite predstavitve, ki bo spremenila vaš pogled na varnost naprave, ki jo prav zdaj nosite v žepu. Have you ever wondered what happens when your mobile device is compromised? In this dynamic 20-minute live demonstration, we will move beyond theory and showcase, within a secure testing environment, how a malicious mobile application operates in practice. You will see how an unprotected smartphone can instantly become a source of valuable information and how attackers can gain access to everything needed to establish a foothold for a broader attack on an organisation. We will also demonstrate how advanced Mobile Threat Defense (MTD) solutions not only detect such risks but can fully neutralise them in real time. Don't miss this eye-opening session that will transform the way you think about the security of the device you carry in your pocket every day."
+    },
+    {
+      "id": "t-026",
+      "title": "Excel formule vs. T-SQL",
+      "speaker": "Gašper Kamenšek",
+      "room": "Europa D",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "Podatki",
+      "level": 300,
+      "demo_pct": 99,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Podatki in analitika"
+      ],
+      "abstract": "Nekje okoli 2010 se je v Excelu pojavil koncept tabele in začelo se je obdobje drugačnega dela v Excelu. Kljub temu pa do 2020 Excel formule niso znale vrniti drugega kot en rezultat. Zadnja leta pa so t.i. Dynamic arrays funkcije vse to spremenile in omogočile čisto nov način dela v Excelu, ki je zelo podoben T-SQL jeziku. Cilj predavanja, poleg popolnega navduŝenja nad Excelom, je pokazati kako zelo se lahko približamo konceptu dela v SQL-u z Excelom."
+    },
+    {
+      "id": "t-027",
+      "title": "Želim postati data-driven! Ali lahko z AI preskočim BI?",
+      "speaker": "Rok Pirnat",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "Podatki",
+      "level": 100,
+      "demo_pct": 35,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Power BI",
+        "Fabric",
+        "Podatki in analitika"
+      ],
+      "abstract": "75 % vodij ne zaupa lastnim podatkom, ko sprejemajo odločitve. 60 % AI projektov bo letos propadlo zaradi slabe kakovosti podatkov. Po raziskavi McKinsey pa resnično podatkovno vodene organizacije pridobivajo kar 23-krat več strank od tistih, ki niso. Ker smo sredi tehnološke (AI) revolucije se postavlja vprašanje ali lahko preskočimo vzpostavitev dashboardov, lepih Power BI poročil in celotno analitiko poganjamo z AI orodji. Na predavanju bodo predstavljene prednosti in slabosti tradicionalnega BI in novodobnega AI pristopa. Skozi uporabniški vidik bodo predstavljeni številni demo primeri realnega in bodočega data-driven okolja. Manjkali ne bodo niti AI agenti, ki bodo klepetali s podatki v Power BI."
+    },
+    {
+      "id": "t-028",
+      "title": "CISO Survival Guide Uporabniki, revizorji, management in druge napredne trajne grožnje",
+      "speaker": "Miloš Krunić",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T13:00:00+02:00",
+      "end": "2026-09-21T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 10,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Kaj se v resnici skriva za vlogo CISO-a? Strateški načrti se srečujejo z zahtevami managementa, revizijami, ranljivostmi, novimi tehnologijami in neskončnimi »hitrimi vprašanji«. CISO Survival Guide odpira pogled na realnost informacijske varnosti, kjer dobre prakse na papirju niso vedno enake tistim v praksi, sprejete odločitve pa imajo lahko posledice takrat, ko jih najmanj pričakujemo. Prava pripravljenost se pokaže, ko vprašanje ni več »zakaj?«, ampak »kaj zdaj?«."
+    },
+    {
+      "id": "t-029",
+      "title": "(še enkrat) o vsaj 5 rešitvah, ki pripomorejo k odpornosti",
+      "speaker": "Luka Manojlovic",
+      "room": "Adria",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "PPTX: https://1drv.ms/f/c/38c674f31c0cb95c/IgDSTVBagyhyTYFVqMN8RhcrAcK32RebegHgHz8FJoNNmnI?e=gfgALH Na kratko o vsaj petih rešitvah, ki jih v okoljih (prevsem tistih, prizadetih od kibernetskih napadov) še vedno najdemo ne ali napačno nastavljene. Pa tudi o praksah, ki ne spadajo v leto 2026."
+    },
+    {
+      "id": "t-030",
+      "title": "Humanoids Don’t Run on Hype - A Robot in Production and the Infrastructure Behind It",
+      "speaker": "Dusan Jovicic, Bjorn Bračko",
+      "room": "Emerald 1",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 5,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Containers",
+        "Hybrid Cloud",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "A humanoid on stage attracts attention. Making its AI work in a real customer environment is the engineering challenge. Comtrade reveals the system behind a Unitree G1 deployment, combining onboard software, language models and on-premises speech transcription and synthesis. What does it take to make these parts work together as a useful, dependable system? Building on last year’s Comtrade AI Cloud session, we return with practical experience of turning model hosting into a packaged service. Buying GPUs was only the beginning. The architecture and operations surrounding them are what make AI usable, especially when the application has a physical body. Beyond the current deployment, our exploration of NVIDIA technologies and vision-language-action models addresses the next challenge: autonomous movement. The session will also cover the practical challenges of bringing a humanoid into an enterprise environment, from network integration and security to DevOps. It explores what works, what remains difficult and what it takes to make a humanoid reliable and useful in the real world."
+    },
+    {
+      "id": "t-031",
+      "title": "No Foundation Model Will Save You: AI Under Space Manufacturing Constraints",
+      "speaker": "Gregor Molan",
+      "room": "Emerald 2",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 25,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Abstract AI conversation is dominated by foundation models trained on internet-scale data. But most industrial problems look nothing like the internet. In space manufacturing, a single lifetime test destroys a high-value cryocooler after more than 8,000 hours of continuous operation. Labeled data is therefore measured in dozens, not millions, and it can never leave the factory. This talk presents a real ESA-funded project with a Slovenian manufacturer: predicting the operational lifetime of satellite cryocoolers from production telemetry, with 1,305 unlabeled and only 95 labeled sequences. We show why off-the-shelf foundation models are structurally unusable in this regime, and what works instead: small representation models trained on unlabeled telemetry, with model capacity deliberately matched to data availability. The same recipe, unsupervised pretraining followed by compact embeddings and lightweight downstream classifiers, applies to any organization sitting on sensor data it cannot share and cannot label at scale."
+    },
+    {
+      "id": "t-032",
+      "title": "Userspace Security - Razvoj Linux Antivirusa",
+      "speaker": "Janže Avsec",
+      "room": "Europa B",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "Razvoj",
+      "level": 400,
+      "demo_pct": 15,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "Linux",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "We will delve into architectural flaws in the design of secure infrastructure and software, examine real-world industry examples, briefly review the mechanisms Linux provides for protecting userspace, and explore their practical application in the open-source OpenUSS program."
+    },
+    {
+      "id": "t-033",
+      "title": "From Attack to Recovery: How Commvault Delivers Cyber Resilience",
+      "speaker": "Primož Golob",
+      "room": "Europa D",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "As cyberattacks become increasingly frequent, security solutions alone are no longer enough. In this session, we will present how Commvault helps organizations build cyber resilience through advanced data protection mechanisms, rapid threat detection, and efficient recovery after incidents."
+    },
+    {
+      "id": "t-034",
+      "title": "You Have 37 Data Sources. Now What? | MS Fabric & Power BI",
+      "speaker": "Christian Gregorec",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "Podatki",
+      "level": 200,
+      "demo_pct": 70,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Power BI",
+        "Fabric",
+        "Podatki in analitika"
+      ],
+      "abstract": "Most companies do not have a data problem, they have a data sprawl problem. An ERP on SQL Server or SAP, a point of sale system on Oracle, a few public APIs, and no way to effectively manage the pile that all of this has quietly become. What that situation needs is a platform that separates where data sits from what runs on it. Storage you do not have to ration, one copy of the data, and a choice of engine at every step: Spark when the volume calls for it, Python when the source is messy, T-SQL when the shape is already tabular. Add one repository and matching development, test and production environments, and the platform stops being the constraint. This session will cover how raw files land at one end, a report someone actually trusts at the other, and the medallion architecture in between, all of it in Microsoft Fabric with Azure DevOps underneath."
+    },
+    {
+      "id": "t-035",
+      "title": "Adopting AI: The Do's and Don'ts of Creating AI-Assisted Workflows",
+      "speaker": "Frenk Dragar",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T14:00:00+02:00",
+      "end": "2026-09-21T14:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Over the past two and a half years we've used AI across nearly every layer of client work: coding assistants for development, AI-powered tools for managing timelines, communication, emails and documentation, and lately, clients vibecoding parts of what used to be entirely the job of developers. On top of that, AI is often no longer just how we build the product, it's inside the product we hand over, which changes what clients expect from us and how we manage those expectations. The do's and don'ts run through three stages. First, encounters with AI, where judgement and ownership stay with the person. Second, workflows, where one-off chats become something that repeats, and where vibecoding, nondeterminism and constantly moving model capability change how we work with internal software. Third, and where most of the difficulty sits, scaling it across a company: what can be shared and what cannot, which software this actually ends up replacing, and where the line between a domain expert and engineering is moving right now."
+    },
+    {
+      "id": "t-036",
+      "title": "Just-in-Time dostop za Ansible Automation Platform workload-e z Entra ID in Vault-om",
+      "speaker": "Mario Dietner",
+      "room": "Adria",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 400,
+      "demo_pct": 25,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "V številnih avtomatizacijskih okoljih se SSH dostop še vedno začne z enim ali več statičnimi zasebnimi ključi, shranjenimi kot machine credential. Tak pristop deluje, dokler okolje ne zraste: več ekip, več inventarjev, več VM-jev, več okolij in vedno težje dokazovanje, kdo ima dostop do česa. V tem 45-minutnem predavanju bom pokazal praktičen arhitekturni vzorec za ekipno omejen, kratkoživ SSH dostop z uporabo Microsoft Entra ID, Red Hat Ansible Automation Platform (AAP) 2.7 in HashiCorp Vault. Predavanje bo pokazalo celotno verigo zaupanja: uporabniki se v AAP prijavijo prek Microsoft Entra ID, AAP IdP integracija pa preveri identiteto uporabnika in njegove skupinske pripadnosti. Entra group claimi se uporabijo za povezavo uporabnika z ustreznimi AAP organizacijami, ekipami in RBAC pravili. Uporabnik, ki izvede avtomatizacijski tok, ima s tem določen obseg dostopa, ki se preslika tudi v uporabo ustrezne Vault identitete oziroma Vault access scope-a. Vault uporablja svojo identiteto, politike in SSH role, ki določajo, kateri dostop je dovoljen. Ta Vault identiteta ima vnaprej določene pravice za podpisovanje SSH certifikatov samo za dovoljene role, principale in ciljne sisteme. Ko AAP job potrebuje dostop do upravljanega VM-ja, uporabi ustrezno Vault integracijo za pridobitev kratkoživega podpisanega SSH certifikata. Upravljani Linux VM-ji zaupajo Vault SSH certifikacijski avtoriteti, ne posameznim statičnim javnim ključem. V prvem delu bom postavil problem: zakaj statični SSH ključi niso dober model za večekipno avtomatizacijo in zakaj je RBAC v avtomatizacijski platformi samo en del celotne varnostne zgodbe. Nato bom predstavil identitetni tok od Microsoft Entra ID do AAP in Vaulta: uporabnik, skupina, AAP team, job template, Vault identiteta, Vault policy, SSH role in SSH principal. Udeleženci bodo videli AAP organizacije, ekipe, RBAC, inventory, job template, HashiCorp Vault Signed SSH credential in izvedbo joba. V demonstracijah bom pokazal uspešen dostop, zavrnjen dostop zaradi napačne ekipe ali napačnega obsega ter preverjanje, da se SSH dostop zgodi s kratkoživim certifikatom in ne s statičnim ključem. Cilj predavanja je predstaviti ponovljiv tehnični vzorec: kako povezati enterprise identiteto, AAP RBAC, Vault identity model, Vault policy model in OpenSSH certifikate v praktičen, preverljiv in operativno uporaben model dostopa."
+    },
+    {
+      "id": "t-037",
+      "title": "The Architect's Warehouse: Designing Azure Infrastructure That Survives the Real World",
+      "speaker": "Vladimir Stefanović",
+      "room": "Emerald 1",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure IaaS",
+        "Azure PaaS",
+        "Infrastructure-As-Code",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Most Azure environments are designed for the first project, not the fifteenth site. By the time you are managing fifty locations across multiple continents, the early decisions you made (account structure, naming, network topology, governance) are either holding the environment together or quietly working against you. This session is a blueprint from the field. Drawing on years of experience managing small- to large-scale Azure environments, we will work through five architectural pillars that determine whether a global infrastructure is manageable or miserable: an account structure that scales, networking that does not become a bottleneck, automation that removes humans from the critical path, resilience that survives the incident you did not plan for, and governance that holds up under real audit conditions; not just on paper."
+    },
+    {
+      "id": "t-038",
+      "title": "Rapid game development with Rust, raylib and AI",
+      "speaker": "Oto Brglez",
+      "room": "Emerald 2",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Razvoj aplikacij"
+      ],
+      "abstract": "In this beginner-friendly lecture, I'll demonstrate how I'm building BongBong, a tank shooter written in Rust that runs in your browser, and how modern tooling, languages and AI are helping me move rapidly and explore ideas that would have been out of reach for me before. There are really two kinds of AI in this project: one that helps me write the game, and one that plays it. Along the way, I'll explain the core mechanics, what the Raylib library gives you and why I chose it over a full engine, and how neural networks ended up driving the enemy tanks. The language matters here more than you'd expect, because strongly and statically typed languages such as Rust, together with their toolchains, let me move fast precisely by catching mistakes early, including the ones my AI assistant makes, and preventing problems down the road. To finish, I'll share the findings, obstacles, and lessons from building this game, including where AI genuinely helped and where it fell apart, so you leave a better, more AI-skilled engineer."
+    },
+    {
+      "id": "t-039",
+      "title": "Znate li što je Oversharing i kako može utjecati na implementaciju Copilota za M365?",
+      "speaker": "Tomislav Lulić",
+      "room": "Europa B",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Microsoft 365",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "This session explores the risks and real-world impact of oversharing in SharePoint and Microsoft 365. It demonstrates how misconfigured or excessive permissions can lead to unintended data exposure, compliance issues, and security risks. Using practical examples—such as sharing with “Everyone except external users,” granting overly broad access, or using anonymous links—this session highlights common oversharing scenarios in everyday collaboration. Participants will gain actionable guidance on how to detect, prevent, and manage access effectively, ensuring the right people have access to the right information at the right time."
+    },
+    {
+      "id": "t-040",
+      "title": "From Experiment to Strategy: Navigating the Opportunities and Obstacles of AI Adoption in Business",
+      "speaker": "Tomislav Bronzin",
+      "room": "Europa D",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Many organizations today are experimenting with artificial intelligence (AI). While employees leverage AI tools to boost personal productivity, management often limits efforts to isolated pilot projects, lacking a clear strategy or measurable business impact. Bridging this gap between experimentation and strategy is now a central challenge of digital transformation. This session explores how organizations can systematically implement artificial intelligence to make it an essential part of business processes, decision-making, and daily team workflows. Using real-world examples, it demonstrates how Microsoft Copilot within the Microsoft 365 environment supports this journey—from document and data management, to informed decision-making, to boosting employee productivity and enhancing collaboration within and across teams. Special emphasis is placed on the role of leadership/management: how to align initiatives related to the implementation of AI with business goals, how to develop the necessary employee skills, and how to establish an appropriate framework of trust, security, and governance. The session connects technology, people, and organizational culture, embracing the concept of a “human upgrade” to show how AI can enhance—rather than replace—the way people work. This session is designed for business and IT leaders seeking to move beyond ad-hoc AI experiments toward sustainable, strategic, and measurable applications of artificial intelligence. It also targets department heads and employees interested in progressing from experimentation to strategy and effective AI implementation."
+    },
+    {
+      "id": "t-041",
+      "title": "Microsoft Fabric at Scale: Are You in Control of Capacity, Performance and Cost?",
+      "speaker": "Christian Gregorec",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "Podatki",
+      "level": 200,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Fabric",
+        "Podatki in analitika"
+      ],
+      "abstract": "A shared analytics capacity is the one resource everybody uses and nobody owns: reports slow down on Tuesday afternoons, an overnight load fails and nobody notices until Thursday, and nobody can say which department is driving the bill. Microsoft Fabric reports all of this, but the signals sit in different places and none is useful on its own. This session brings them together on a single tenant in two layers. The live layer, built on Real-Time Intelligence with an Eventhouse and Workspace Monitoring, watches what is running, failing or straining the capacity right now. The broad layer, using FUAM, the Fabric Capacity Metrics and Chargeback app and Azure cost views, tracks every workspace, item, owner and cost over time. Demonstrated live, including a failure triggered on purpose and traced back to its cause during the session."
+    },
+    {
+      "id": "t-042",
+      "title": "AI Smart, Not Hard: When to Use What in the Expanding Microsoft 365 Copilot Ecosystem",
+      "speaker": "Natalia Nikonenko",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T15:00:00+02:00",
+      "end": "2026-09-21T15:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Microsoft 365 Copilot is evolving rapidly. While most users are familiar with Copilot Chat and, more recently, Cowork as their everyday AI companion, the Copilot ecosystem is expanding far beyond a single assistant. New capabilities, specialized agents, and intelligent experiences are being introduced at an unprecedented pace, creating new opportunities to work smarter, not harder. In this session, we will explore how to navigate the growing Microsoft 365 Copilot ecosystem and, most importantly, understand when to use what. Attendees will learn where Cowork fits into their daily work, when Researcher is the better choice for complex research and strategic analysis, when Analyst can help uncover insights and trends from business data, and how Facilitator and other specialized agents can accelerate meetings, decision-making, and business processes. We will also look at emerging capabilities and discuss how the Copilot experience continues to evolve through regular innovation. Rather than approaching every task or challenge with the same AI tool, participants will learn how to select the right capability for the right task. Through real-world examples and practical demonstrations, attendees will leave with a clear framework for maximizing the value of Microsoft 365 Copilot, increasing productivity, and building effective human-AI collaboration. In a world where new AI capabilities arrive almost daily, success is no longer about using AI. It's about knowing which AI capability to use, and when."
+    },
+    {
+      "id": "t-043",
+      "title": "Managing a Fleet of Health Centre Registration Kiosks with Elixir, Nerves, and NervesHub",
+      "speaker": "Damjan Cvetko",
+      "room": "Adria",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 5,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "Linux",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Building a terminal for patient self-registration is relatively simple. Managing tens or hundreds of these devices in production is another matter. This is the story of how we used Elixir, Nerves, and NervesHub to build a custom hardware device, package its firmware, and manage deployments and upgrades. We will explore the Elixir programming language and the BEAM runtime, how Nerves elegantly packages an application and its runtime as firmware, and what NervesHub brings to the table in terms of device management and firmware deployment."
+    },
+    {
+      "id": "t-044",
+      "title": "How to Not Break the Active Directory Tiering Model… with Real-World Situations",
+      "speaker": "Tomislav Fučkar",
+      "room": "Emerald 1",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 70,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Windows Server",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "The Active Directory tiering model is designed to protect privileged identities and reduce the risk of lateral movement—but real-world administration often introduces challenges that aren't covered in the documentation. In this 45-minute session, we'll walk through practical scenarios that administrators encounter when managing Microsoft Failover Clusters while maintaining a secure tiering model. You'll learn how to perform day-to-day cluster management without violating administrative boundaries, how to recover and repair a failover cluster without breaking tiering, and which common operational practices can unintentionally weaken your security posture. Through real-world examples, we'll explore common pitfalls, explain why they happen, and demonstrate practical solutions that allow you to keep both your infrastructure highly available and your privileged access model intact. Whether you're responsible for Active Directory, Windows Server, or clustered workloads, you'll leave with actionable guidance that can be applied immediately in your environment."
+    },
+    {
+      "id": "t-045",
+      "title": "Požarni zid Windows - prvi del",
+      "speaker": "Miha Pihler",
+      "room": "Emerald 2",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Požarni zid Windows je pogosto spregledan in zanemarjen mehanizem za zagotavljanje učinkovite zaščite IT-okolja. Predavanje udeleženca vodi od osnov implementacije in konfiguracije do napredne uporabe požarnega zidu Windows. Predstavljeni bodo praktični pristopi, primeri iz realnih okolij ter izkušnje, pridobljene z več kot 10 leti implementacije in uporabe požarnega zidu. Cilj predavanja je pokazati, kako lahko požarni zid Windows postane pomemben in učinkovit del varnostne strategije okolja."
+    },
+    {
+      "id": "t-046",
+      "title": "Goodbye Passwords: The Future of Secure Authentication in Microsoft Entra",
+      "speaker": "Slavko Kukrika",
+      "room": "Europa B",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 45,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Microsoft Entra protects identities for Microsoft cloud services, including Microsoft 365 and Microsoft Azure. In this session, we will explain and demonstrate some of the latest capabilities you can implement for even more secure identity verification (authentication)—such as passwordless, Verified ID, FIDO2 passkeys, and certificates. We will also demonstrate a simple authentication process using a QR code. By utilizing Authentication Strength, we can enforce phishing-resistant methods (such as FIDO2 keys) exclusively for critical resources. For highly sensitive operations, we can define protected actions that require an additional layer of verification. Join this demo-heavy session to discover how you can simplify your Microsoft Entra/Microsoft 365 sign-in process, make it significantly more secure, and eliminate the need for passwords entirely!"
+    },
+    {
+      "id": "t-047",
+      "title": "Data Is the New AI Security Perimeter: Protecting Information in the Age of Copilots and GenAI",
+      "speaker": "Saša Kranjac",
+      "room": "Mediteranea 1",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Poslovno",
+      "level": 100,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Teams",
+        "GDPR",
+        "Defender",
+        "Entra",
+        "Microsoft 365",
+        "Poslovni dan"
+      ],
+      "abstract": "Most organizations focus on AI models, but the real security challenge lies elsewhere: data. AI systems amplify existing data security weaknesses, expose oversharing risks, and create entirely new pathways for sensitive information to be discovered, processed, and unintentionally revealed. This executive briefing explains why successful AI transformation begins with data governance, not technology selection. Attendees will learn how leading organizations are preparing their data estates for AI adoption, reducing oversharing risks, securing AI interactions, and implementing governance controls that allow employees to use AI safely. The session translates technical concepts into business language and provides leaders with a practical roadmap for enabling secure AI innovation at scale."
+    },
+    {
+      "id": "t-048",
+      "title": "K8S : We use TalosOS and you should too",
+      "speaker": "Aljaž Starc",
+      "room": "Mediteranea 2",
+      "start": "2026-09-21T16:00:00+02:00",
+      "end": "2026-09-21T16:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 40,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "DevOps",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Kubernetes is out for over a decade with multiple ways of bootstrapping it. With most of them we have a Linux host with a shell under it - which is a nice attack vector. We will explore TalosOS: an API-managed, shell-less, hardened-by-default k8s distribution and then upgrade the setup with terraform management of it in order to easily (re)deploy the cluster itself and workloads on it."
+    },
+    {
+      "id": "t-049",
+      "title": "Microsoft Entra Verified ID: Verifiable Trust for the Modern Microsoft 365 Organization",
+      "speaker": "Damir Dizdarevic",
+      "room": "Adria",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 20,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Microsoft Entra Verified ID brings verifiable credentials into Microsoft 365 and Entra ID environments, enabling organizations to issue and verify trusted digital identities. This session will explain what Verified ID is, how it works, and where it fits alongside authentication, MFA, Conditional Access, and identity governance. We will explore practical use cases such as employee verification, partner onboarding, privileged access, and account recovery. Through live demonstrations, attendees will see how to configure Verified ID, issue a credential, store it in Microsoft Authenticator, and verify it in an application or access workflow. The session will help IT professionals understand how Verified ID can support a modern Zero Trust identity strategy."
+    },
+    {
+      "id": "t-050",
+      "title": "Kvantno varna arhitektura: kako pripraviti podjetje na post-kvantno kriptografijo",
+      "speaker": "Marko Kokol",
+      "room": "Emerald 1",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 20,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Azure IaaS",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Kvantno računalništvo ni več samo raziskovalna tema za laboratorije, ampak postaja strateško vprašanje digitalne odpornosti, kibernetske varnosti in dolgoročne zamenljivosti kriptografije v podjetjih. V predavanju bomo pogledali, zakaj post-kvantna kriptografija ni preprosta zamenjava algoritma, temveč arhitekturni, operativni in upravljavski izziv. Udeleženci bodo spoznali razliko med kvantnim računalništvom, post-kvantno kriptografijo, QKD in pojmom quantum-safe arhitekture ter videli, kje se kriptografija v resnici skriva: v aplikacijah, API-jih, certifikatih, identitetah, podpisovanju kode, podatkih v prenosu, podatkih v mirovanju in dobaviteljskih verigah. Osrednji del predavanja bo praktičen: kako začeti s kriptografskim inventarjem, kako razmišljati o kripto-agilnosti in kako pripraviti 90-dnevni načrt za prehod v okolje, kjer bo mogoče kriptografske mehanizme menjati nadzorovano, sledljivo in brez popolne prenove sistemov. Predavanje je naravno nadaljevanje lanskoletnega uvoda v kvantno programiranje s Q#, vendar se osredotoča na vprašanje, ki ga bodo morali CIO-ji, CISO-ji, arhitekti in razvijalci reševati precej prej, kot bodo kvantni računalniki vsakdanji del produkcijskih okolij."
+    },
+    {
+      "id": "t-051",
+      "title": "You trust the software. But Can you trust its Components?",
+      "speaker": "Andrej Golob, Milan Gabor",
+      "room": "Emerald 2",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Vast majority of organizations rely on far more software they procure than they develop themselves. Commercial applications, open-source libraries, containers, firmware, embedded systems and supplier-provided binaries have become essential parts of virtually every IT environment, yet organizations often have limited visibility into what these software artifacts actually contain. An SBOM can provide valuable insight into software composition, but what happens when source code is unavailable, software comes from a third party, or the delivered artifact does not fully match what was declared? And how can we check? This session explores hidden risks in the software supply chain and demonstrates how binary analysis can identify open-source and third-party components inside executables, libraries, containers and firmware without access to source code."
+    },
+    {
+      "id": "t-052",
+      "title": "Uporaba Conditional Access v Entra ID",
+      "speaker": "Miha Pihler",
+      "room": "Europa A+C",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "Conditional Access je pogosto zanemarjen in slabo razumljen mehanizem za zaščito okolja Microsoft 365 ter nadzor dostopa do storitev v oblaku. V resnici gre za pomembno varnostno orodje, ki bi ga moral pri zaščiti dostopa do oblačnih storitev poznati in uporabljati vsak skrbnik. Predavanje udeleženca vodi od prvih korakov pri implementaciji do naprednejših načinov uporabe Conditional Access. Predstavljeni bodo praktični pristopi in primeri uporabe, s katerimi lahko bistveno izboljšamo nadzor nad dostopom do storitev v oblaku."
+    },
+    {
+      "id": "t-053",
+      "title": "Your Encryption Has an Expiry Date: Surviving Q-Day and AI-Speed Attacks",
+      "speaker": "Tudor Damian",
+      "room": "Europa B",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Office 365",
+        "Windows Server",
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "The \"future\" of AI and quantum computing has arrived, and it has changed the rules of defense. We are no longer just fighting human hackers - we are fighting autonomous AI agents that attack at machine speed, while \"Q-Day\" (the day quantum computers break current encryption) puts a hard deadline on the way we lock up our data. The immediate problem is \"Harvest Now, Decrypt Later\": attackers are stealing your encrypted data today, planning to open it when Q-Day arrives. Since the migration to Post-Quantum Cryptography takes years, not months, the clock is already running. This session covers how to sequence your PQC migration against the new standards, how to defend against AI-driven malware moving faster than your SOC can respond, and how to build a crypto-agile architecture that survives the next generation of attacks - not just the current one."
+    },
+    {
+      "id": "t-054",
+      "title": "Coding smarter with GitHub Copilot",
+      "speaker": "Barbara Forbes",
+      "room": "Europa D",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 90,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "Open Source",
+        "PowerShell",
+        "Github",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "AI is changing the way we work. But how do we actually create more value with it? You've seen what GitHub Copilot can do. But in this session, we will focus on what matters: how to get consistently better results, instead of feeling like you’re explaining your code to a toddler. Through live demos, we’ll explore how GitHub tools can be customized and managed to become your (slightly annoying) coworker. One that actually saves time, comes up with options you might miss, and occasionally surprises you in a good way. You’ll walk away with a clear overview and practical tips on which tools and models to use. Let's find out how we can make AI work for us to bring our ideas to life."
+    },
+    {
+      "id": "t-055",
+      "title": "Best Practices for FIDO2 Passkeys in Microsoft Entra ID",
+      "speaker": "Hrvoje Kusulja",
+      "room": "Mediteranea 1",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "We will chat and talk about how passwords and traditional MFA are no longer enough. FIDO2 passkeys enable phishing‑resistant, standards‑based passwordless authentication and are a key building block of modern identity security in Microsoft Entra ID."
+    },
+    {
+      "id": "t-056",
+      "title": "Unlock the Future: SharePoint SE Innovations",
+      "speaker": "Robi Vončina",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T09:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "SharePoint",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "This session dives into the latest advancements exclusive to SharePoint Server Subscription Edition (on-premises), covering key feature updates from the 25H1 and 25H2, 26H1 releases through May 2026."
+    },
+    {
+      "id": "t-057",
+      "title": "IT Sovereignty Amid Global Uncertainties",
+      "speaker": "Mitja Robas",
+      "room": "Adria",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Azure IaaS",
+        "Azure PaaS",
+        "Containers",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "We live in a time when uncertainties are the only constant. Adding to the natural disasters, cyberattacks, and human errors, the list of risks is expanded with state-sponsored \"kill switches\", fragile supply chains, and energy insufficiencies. The systemic risks are the new baseline. In this high-stakes environment, IT sovereignty is no longer just a buzzword - it is a critical survival strategy. Yet, achieving that goal is not easy. Navigating this landscape means cutting through the noise of siloed products and false promises of \"turnkey nirvana\" solutions from vendors. We will tackle the three questions that matter most (not necessarily in the following order of appearance): What does true IT sovereignty actually mean beyond the marketing spin? Why is it non-negotiable in today's threat landscape? How can organisations realistically achieve it? And all that from a perspective of modern applications running on Kubernetes in an Azure hybrid cloud environment."
+    },
+    {
+      "id": "t-058",
+      "title": "Beyond Methodologies: The Human Side of Project Management",
+      "speaker": "Boštjan Stražar",
+      "room": "Aurora 1+2",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T11:50:00+02:00",
+      "track": "Poslovno",
+      "level": 100,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Project",
+        "Mind Upgrade"
+      ],
+      "abstract": "Technology doesn't deliver projects—people do. In today's IT environment, project success depends as much on mindset, communication, influence, and leadership as it does on technical expertise or project methodology. The most successful project managers know how to build trust, navigate difficult conversations, influence without formal authority, and create commitment across diverse stakeholders. This highly interactive workshop is based on the internationally recognized Hansen Beck Transformational Training methodology, where participants learn by doing—not by listening. Through practical exercises, real-life simulations, reflection, and immediate application, attendees will experience how small changes in attitude, communication, and personal leadership can significantly improve project outcomes. Participants will leave with practical tools they can use immediately to strengthen collaboration, increase stakeholder engagement, and lead projects more effectively—regardless of the methodology or technology they use."
+    },
+    {
+      "id": "t-059",
+      "title": "Trust the Code You Didn't Write: Leading Delivery When AI Outpaces Review",
+      "speaker": "Ognjen Bajic, Ana Roje Ivancic",
+      "room": "Emerald 1",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "OpenAI",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Over half of the new code on GitHub is AI-assisted, and agents now handle day-long tasks unsupervised. The bottleneck is no longer writing code; it's reviewing it. Agents already review agents. How do you stay accountable when nobody can read every line that ships? We present four automated layers: BDD scenarios, guardrails-as-code, independent-agent reviews, and observability + deployment rings, each catching what the previous layers miss, and every escape becoming a new rule. Humans move above the stack: intent, policy, exceptions, sign-off. Every layer emits evidence. You leave with a model you can defend to your team, your auditors, and your board. You can automate the review. You cannot automate accountability."
+    },
+    {
+      "id": "t-060",
+      "title": "Sovereignty",
+      "speaker": "Oguzhan Arslan",
+      "room": "Emerald 2",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Azure",
+      "level": 100,
+      "demo_pct": 100,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure IaaS",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Microsoft's approach to digital sovereignty and its commitments around control, compliance, security, privacy and transparency."
+    },
+    {
+      "id": "t-061",
+      "title": "The Next Era of Cyber Defense: Clarity, Control, and Response at Scale",
+      "speaker": "Paula Januszkiewicz",
+      "room": "Europa A+C",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Varnost",
+      "level": 400,
+      "demo_pct": 15,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "In this keynote, cybersecurity will be reframed as a challenge of clarity and control rather than tooling. Despite significant investments, organizations continue to experience breaches that go unnoticed until it is too late. Attackers exploit gaps in understanding rather than gaps in technology. Signals exist, often in abundance, yet they are not translated into actionable insight at scale. This creates environments where detection is present, but response is ineffective. A strategic approach to achieving clarity across identity, endpoints, and cloud will be presented, along with methods to turn that clarity into coordinated response. The session offers a new way of thinking about how to see, understand, and act on attacks as they happen. Expect practical insights and real incident examples brought directly from the field by Paula"
+    },
+    {
+      "id": "t-062",
+      "title": "Securing Sensitive Data from AI exploits in Microsoft Ecosystem",
+      "speaker": "Saša Kranjac",
+      "room": "Europa B",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 25,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Defender",
+        "Entra",
+        "Microsoft 365",
+        "Copilot",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "As organizations embrace AI innovation, protecting sensitive data and securing AI services have never been more critical. As one of the largest globally present vendors with billions of users, the Microsoft ecosystem is particularly interesting and lucrative to adversaries of all sorts. In this session, we’ll explore how to protect sensitive enterprise data, increase its security against AI-related exploits in the Microsoft ecosystem, and use advanced threat protection to safeguard sensitive data and AI services amid rising cyber risks."
+    },
+    {
+      "id": "t-063",
+      "title": "Kdo je odgovoren za naše storitve v oblaku: CISO ali Microsoft/Google/Amazon/…?",
+      "speaker": "Grega Prešeren, Andrej Gornik",
+      "room": "Europa D",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 20,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Kako poskrbeti za varnost infrastrukture v oblaku in komu pripisati odgovornost zanjo? Kje je ločnica med delom, s katerim upravlja organizacija in tistim, ki je v domeni ponudnika storitve? Kje so varnostne pasti oblaka in kakšne so specifike pri izvajanju varnostnih testov? V predavanju bomo podali odgovore na zastavljena vprašanja in z različnih zornih kotov pogledali na upravljanje varnosti oblačnih storitev in infrastrukture. Poseben poudarek bo namenjen uporabnikom Microsoft 365, ki predstavljajo pogosto tarčo napadalcev, ter pomenu prilagajanja privzetih nastavitev dejanskemu okolju in rednega preverjanja njihove učinkovitosti. Predavanje bo ponudilo praktičen vpogled v izzive, s katerimi se srečujejo organizacije pri zagotavljanju varnosti svojih storitev v oblaku."
+    },
+    {
+      "id": "t-064",
+      "title": "AI in the Core: The Biggest Opportunity in Regulated Business",
+      "speaker": "Tanja Blatnik, Rok Kreslin",
+      "room": "Mediteranea 1",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "We're living through the most exciting shift enterprise software has ever seen. For regulated industries the biggest opportunity isn't making individuals a little faster, it's AI moving into the core of the institution itself. In this joint FlowX.AI x Comland session, Tanja Blatnik (FlowX.AI) makes the case for why now, and why regulated businesses are about to be transformed. Then Rok Kreslin (Comland) makes it real: a look at a build already underway at a Slovenian utility, turning a complex, paperwork-heavy process into a simple conversation - how it's built, what's working, and what's next. Positive, concrete, and interactive - not a product pitch. You'll leave seeing where AI could transform your own organization, and how to actually start."
+    },
+    {
+      "id": "t-065",
+      "title": "Build, test, deploy, and then what? Growing a GitLab CI pipeline live",
+      "speaker": "Jernej Porenta",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T10:00:00+02:00",
+      "end": "2026-09-22T10:45:00+02:00",
+      "track": "Razvoj",
+      "level": 400,
+      "demo_pct": 40,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "We start a live demo with a pipeline that does the usual three things: build, test, deploy. Over the course of presentation we'll add the jobs that make it useful for security, compliance and everything after the merge. SCA and SAST, secrets scanning, automated dependency updates, a license checker, SBOM generation, reporting, preview environments and a no-touch deployment. Add AI for code reviews. Then parallelization, because by that point the pipeline is slow."
+    },
+    {
+      "id": "t-066",
+      "title": "Rethinking IT",
+      "speaker": "Carsen Beyer",
+      "room": "Adria",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 15,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Project",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Our philosophy is simple: \"Rethinking IT\" means enterprise-grade networking shouldn't require enterprise-level complexity or cost. Through our UniFi ecosystem, we unify networking, security, and more into a single, powerfully simple software platform — backed by zero fees, constant innovation, and rapid EdgeAI advancements. With over 100 million devices shipped worldwide, Ubiquiti has proven this approach can scale."
+    },
+    {
+      "id": "t-067",
+      "title": "What have we learned from building 100+ enterprise-grade Agents",
+      "speaker": "George Georgiopoulos",
+      "room": "Emerald 1",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Poslovno",
+      "level": 100,
+      "demo_pct": 100,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure Stack / Azure pack",
+        "Poslovni dan"
+      ],
+      "abstract": "Agentic AI can now span your entire enterprise. From simple, day-to-day automations to complex autonomous systems; from document intake to operations control rooms. George will be sharing respective demos but most importantly, the key insights from moving from pilot, to production to full Agentic governance."
+    },
+    {
+      "id": "t-068",
+      "title": "More Than Just Chat: When Chaty Reads, Understands, and Acts",
+      "speaker": "Vladimir Djurdjic",
+      "room": "Emerald 2",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Chaty is a private business AI assistant that enables organizations to harness the power of large language models without their data ever leaving a controlled environment — whether on-premise or in a private cloud. Chaty transforms internal documents, emails, and knowledge bases into knowledge that is instantly accessible and immediately actionable. You will also discover how the platform supports specialized agents for business operations, including contract review, translation, customer support, and tender assistance. Through a hands-on example, we will demonstrate the intelligent document processing (IDP) module: Chaty automatically reads an invoice, delivery note, or contract, extracts the key data, and passes it on for further processing — for example, directly into an ERP system. Everything runs in a secure environment, with humans remaining in the loop wherever their judgment is essential. This session is designed for anyone seeking advanced AI capabilities without compromising on data sovereignty."
+    },
+    {
+      "id": "t-069",
+      "title": "Breaking Identity at Scale: From DPAPI & TBAL Secrets to Full Domain Compromise",
+      "speaker": "Paula Januszkiewicz",
+      "room": "Europa A+C",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Varnost",
+      "level": 400,
+      "demo_pct": 70,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Modern enterprise environments continue to rely on implicit trust within identity and credential protection mechanisms such as DPAPI, DPAPI-NG, and token-based authentication layers. While these technologies are designed to safeguard secrets, they also introduce powerful attack surfaces when combined with misconfigurations, weak privilege boundaries, and overlooked trust relationships. This session presents a deep technical exploration of how attackers extract and abuse protected credentials at scale, moving from local access to full domain compromise. We demonstrate novel techniques for decrypting DPAPI-protected data, abusing TBAL-related key material, and chaining these with authentication protocol weaknesses such as NTLM and Kerberos to achieve lateral movement and privilege escalation. Unlike traditional approaches that focus on single techniques, this research connects multiple layers of identity abuse into a cohesive attack path observed in real-world environments. Attendees will see how seemingly isolated weaknesses: credential storage, token handling, and protocol trust, combine into high-impact attack chains. The session also provides defensive strategies, including detection opportunities, hardening approaches, and architectural changes to reduce reliance on implicit trust. The goal is to shift defenders from reactive detection to proactive identity security design."
+    },
+    {
+      "id": "t-070",
+      "title": "Optimizacija Linux workloadov v Azure oblaku",
+      "speaker": "Ziga Erhatic",
+      "room": "Europa B",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 400,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Linux",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "Current estimation suggests that 70% of all cloud services run on the Linux kernel. In this lecture, we will discuss performance optimization for Linux workloads in the Azure cloud. Simply adding compute, memory, or opting for larger VM sizes does not resolve performance issues. True optimization requires analyzing workload behavior — meaning we must closely examine how an application consumes CPU, responds to memory pressure, its I/O patterns, and observe network latency. To take a proper approach to optimization, we need to characterize the workload with appropriate metrics. Part of this data is provided directly by Microsoft Azure through platform metrics, operating system monitoring, and logs using tools such as Azure Monitor with Azure Managed Grafana. In addition to these solutions, alongside classic resource monitoring tools for CPU, memory, disks, and network connections, newer kernels come with enabled support for (e)BPF. BPF enables the use of powerful tools which provide deeper real-time insights into the running kernel and application code execution. During the presentation, we will go through practical examples and demonstrate how some of these tools can be used to get richer context on performance and in parallel used in troubleshooting sessions. Micro and macro performance analysis of applications running on the Linux kernel, combined with the tools available in the Azure cloud, helps us understand how the environment operates, ultimately aiding in both performance and cost optimization."
+    },
+    {
+      "id": "t-071",
+      "title": "A practical guide to use Microsoft Foundry and GPT models for business processes",
+      "speaker": "Maximilian Pessl",
+      "room": "Europa D",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure IaaS",
+        "OpenAI",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Artificial intelligence is rapidly becoming part of everyday business operations, but many organizations still struggle to turn AI concepts into practical solutions. This session demonstrates how Microsoft Foundry, Azure-hosted GPT models, and modern automation tools such as n8n can be used to automate processes, connect enterprise data, and create intelligent workflows. Through live demonstrations and real-world scenarios, attendees will gain practical insights into building scalable AI solutions that deliver tangible business value while maintaining security and governance requirements."
+    },
+    {
+      "id": "t-072",
+      "title": "Data sovereignty v praksi: Azure mehanizmi skozi prizmo SCF",
+      "speaker": "Klemen Vezjak",
+      "room": "Mediteranea 1",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 70,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Azure IaaS",
+        "Azure PaaS",
+        "Azure Stack / Azure pack",
+        "GDPR",
+        "Infrastructure-As-Code",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Lokalni podatkovni centri obljubljajo popolno suverenost podatkov. Je to marketing ali resničnost? Geopolitične napetosti, predvsem med ZDA in EU, vse pogosteje postavljajo vprašanje, kje in kako so naši podatki resnično zaščiteni – in ali javni oblak sploh lahko ponudi enako raven suverenosti kot podatkovni centri lokalnih ponudnikov. Skozi tehnično obarvano predavanje bo predstavljeno, katere mehanizme Microsoft Azure danes ponuja za zagotavljanje suverenosti podatkov in infrastrukture v oblačnih okoljih ter do katerega SEAL (Sovereignty Effectiveness Assurance Level) nivoja ti mehanizmi dejansko segajo, glede na EU Cloud Sovereignty Framework. Poseben poudarek bo namenjen Security Control Frameworku (SCF) kot konceptu, s katerim lahko, poleg ostalih tveganj, sistematično naslovimo tudi tveganja suverenosti znotraj oblačne infrastrukture."
+    },
+    {
+      "id": "t-073",
+      "title": "Cloud Without Illusions: Seven Questions Before Choosing Your Cloud Strategy",
+      "speaker": "Mel Pirc",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Azure",
+      "level": 200,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Hybrid Cloud",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Public cloud, private cloud, hybrid cloud – all cloud models that your web browser or favourite AI agent may suggest today, often before considering where the data will reside, who will have access to your IT infrastructure, and which compliance requirements the environment needs to meet. But what do all these models really have in common, and how do you choose the one that is right for your environment? Is the cloud really the right choice for your organisation and IT environment, or can attractive promises quickly turn out to be illusions? This session is intended for everyone who already uses cloud services, is considering them, or is planning the next steps for their IT infrastructure. Through seven questions, we will move from cloud promises to real-world architecture, highlighting the key decisions involved in choosing a cloud solution and connecting them with experience gained through the development and use of the PRO.CLOUD platform. If cloud sometimes feels like there is too much magic involved, we will take a closer look at what is a trick – and what is technology."
+    },
+    {
+      "title": "Digitalna transformacija digitalne transformacije 2.0",
+      "speaker": "dr. Sinergija Paradigma",
+      "room": "Tartini",
+      "start": "2026-09-22T11:00:00+02:00",
+      "end": "2026-09-22T11:45:00+02:00",
+      "track": "Poslovno",
+      "level": 100,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": true,
+      "tags": [
+        "digitalna-transformacija",
+        "sinergija",
+        "paradigma",
+        "poslovno"
+      ],
+      "abstract": "Holistična sinergija disruptivnih paradigm v postdigitalni dobi transformacije.",
+      "id": "t-074"
+    },
+    {
+      "id": "t-075",
+      "title": "Anatomy of a conversational AI agent - non-developer edition",
+      "speaker": "Vedran Križek",
+      "room": "Adria",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "You might think that AI agents are merely wrappers around a LLM of your choice, and assume their architecture is trivial and doesn't warrant much interest. That might have been the case a year ago, but AI agents of today are different beasts altogether. Their architecture, typical challenges, and resulting solutions often fall well outside the technical comfort zone of most business analysts and product owners. And that is a problem. So in this talk, we'll learn how AI agents are built and what makes them tick by \"dissecting\" a real, in-production, multilingual conversational AI agent made for the tourism industry. By the end of the talk, AI agents should no longer be in \"there be dragons\" territory of your technical comfort zone, but will become almost mundane. And that is a good thing."
+    },
+    {
+      "id": "t-076",
+      "title": "One Key, Everything — How I Moved My Whole Digital Identity onto YubiKeys",
+      "speaker": "Nejc Kraševec",
+      "room": "Emerald 1",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Project",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "My SSH private key lived on four computers and in every backup, and my qualified SIGEN-CA certificate was a .p12 file in my Downloads folder. Nothing was ever stolen, but when I asked myself how many private keys would walk out of the building with my laptop, I had no answer. So I gave myself a single rule: no private key I care about may exist on a disk of mine. This is the story of keeping that rule and moving everything onto two YubiKeys — server logins, my national e-ID certificate, passkeys, and the six-digit codes the key now generates itself. I show what worked, where it broke, and how a few wrong PIN entries locked me out of my own keys, because that is the real danger of these devices: not theft, but locking yourself out. Which is why I also talk about the backup key, about testing recovery, and about what this migration does not solve."
+    },
+    {
+      "id": "t-077",
+      "title": "Strengthen security in your software supply chain with Red Hat",
+      "speaker": "Artur Pajak",
+      "room": "Emerald 2",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Hybrid Cloud",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Learn how platform engineers and developers can secure software supply chains without sacrificing pipeline velocity. We’ll cover automating vulnerability scanning, enforcing continuous policy checks, and verifying code provenance from commit to production across hybrid cloud environments using Red Hat tools and open standards to ship trusted code faster."
+    },
+    {
+      "id": "t-078",
+      "title": "AI Under Attack: Top Generative-AI Security Threats Everyone Must Know About",
+      "speaker": "Saša Kranjac",
+      "room": "Europa B",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Defender",
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "As generative AI technologies become embedded across enterprise workflows, cyberattackers are rapidly exploiting new vulnerabilities — and standard security approaches are no longer sufficient. This session will uncover the top risk vectors that organisations must address now, help you understand the business and operational implications of generative-AI risks, and to equip you with the questions, frameworks and next steps required to protect your enterprise in a fast-moving AI-driven threat landscape."
+    },
+    {
+      "id": "t-079",
+      "title": "Modernize your legacy .NET app: Write Once, Run Everywhere with Blazor Hybrid",
+      "speaker": "Nicola Paro",
+      "room": "Europa D",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 25,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "Companies that have invested in .NET solutions for years are now facing a crucial challenge: how to evolve WinForms or WPF applications toward modern, cross-platform experiences without rewriting everything from scratch. With .NET MAUI and Blazor Hybrid, it is possible to adopt a gradual modernization approach, combining the reuse of business logic and C# components with new user interfaces and cross-platform features. During the session, we will analyze architectures, patterns, and strategies for integrating Blazor Hybrid into existing applications, evaluating the advantages, limitations, and real-world use cases of a unified .NET ecosystem for web, desktop, and mobile."
+    },
+    {
+      "id": "t-080",
+      "title": "Dell Automation Platform and Dell Private Cloud",
+      "speaker": "Peter Lončarević",
+      "room": "Mediteranea 1",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 200,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Hybrid Cloud",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "This presentation introduces Dell Automation Platform (DAP) and Dell Private Cloud (DPC), showing how Dell simplifies the deployment, management, and evolution of private-cloud infrastructure. It explains the role of the DAP portal, catalog, orchestrator, and validated blueprints in delivering repeatable Day 0, Day 1, and Day 2 operations across compute, storage, and networking. The session also covers DPC deployment options, integrated storage automation, supported ecosystems, and practical customer value: faster time to value, improved operational consistency, reduced complexity, and a foundation for future AI and distributed-cloud outcomes."
+    },
+    {
+      "id": "t-081",
+      "title": "From security logs to intelligence - getting real value from your logs and SIEM",
+      "speaker": "Ljubo Brodarić, Tomica Kaniski",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T13:00:00+02:00",
+      "end": "2026-09-22T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 10,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Organizations generate vast amount of security data every day, yet many struggle to extract real value from their SIEM investments. With real-world projects and operational experience, this session explores intelligent log collection, use case-driven monitoring and data optimization. Attendees will gain practical guidance on transforming raw logs into actionable intelligence while improving detection capabilities, operational efficiency, and return on investment."
+    },
+    {
+      "id": "t-082",
+      "title": "Thē wönderfűl wôrld of ćollåtions, eñcodingß and téxt sţoræge",
+      "speaker": "Mladen Prajdić",
+      "room": "Adria",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "Podatki",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "SQL Server",
+        "Podatki in analitika"
+      ],
+      "abstract": "In today's world, the chances of having data in a single language are slim to none. Your customers speak and write many languages with many different letters. Once you get to talking or thinking about characters, collations, encodings, sort orders, diacritics, code pages, etc, a brain melt is what you end up with. In this session we'll look at what all of these things are, how they fit together and how to use them properly, as each of them can break your applications in various ways. Since SQL Server 2019 brought improvements in UTF-8 area, and we'll see how we can use that to our benefit. Because sometimes it's not enough to just use NChar or NVarChar and think everything will be ok."
+    },
+    {
+      "id": "t-083",
+      "title": "The Current State of .NET MAUI: What Works, What Doesn't, What Changed",
+      "speaker": "Almir Vuk",
+      "room": "Emerald 1",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        ".NET Framework",
+        "Xamarin",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "Most .NET developers formed their opinion of MAUI somewhere around 2022, and a lot of those opinions were fair at the time. Four years and an LTS release later, it's worth asking the question again, not as a fan, and not as a critic, but as someone who has to decide what to build the next app in. This session is a status report. We'll look at what MAUI genuinely does well today, where it still hurts, and which problems are fixed, which are worked around, and which are structural. From this, we'll get into the part that actually determines whether a MAUI project succeeds: architecture. What a maintainable app looks like, how to keep platform-specific code from bleeding everywhere, and which decisions are expensive to reverse six months in. We'll also look at where the framework has been heading lately, and what that direction means for real projects.\" You don't need any MAUI experience. You'll leave knowing whether MAUI belongs in your toolbox, and if so, how to use it without regret."
+    },
+    {
+      "id": "t-084",
+      "title": "Vibe Coding: Od prompta do ranljivosti",
+      "speaker": "Anja Ostovršnik",
+      "room": "Emerald 2",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 70,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Linux",
+        "OpenAI",
+        "Copilot",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Umetna inteligenca dandanes piše kodo hitreje, kot jo človek sploh lahko prebere. V nekaj minutah lahko iz nič sestavi delujočo aplikacijo in precej samozavestno zatrdi, da je popolnoma varna. Na predavanju bomo takšno aplikacijo vzeli pod drobnogled in jo poskušali napasti. Od arhitekturnih in strukturnih napak do konkretnih ranljivosti bomo pokazali, kako hitro lahko pomembne varnostne pomanjkljivosti ostanejo spregledane. Če juniorju brez nadzora ne bi zaupali produkcije, zakaj bi jo zaupali umetni inteligenci?"
+    },
+    {
+      "id": "t-085",
+      "title": "Okrogla miza na temo informacijske varnosti",
+      "speaker": "Žan Sterle, Miha Pihler, Milan Gabor, Gregor Spagnolo, Tadej Hren, Boštjan Kežmah, Katarina Janjic, Aleš Čretnik",
+      "room": "Europa A+C",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T16:00:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 0,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Okrogla miza o informacijski varnosti je že vrsto let stalnica NT konference. Na njej priznani slovenski strokovnjaki predstavijo poglobljen pregled aktualnih varnostnih dogodkov doma in po svetu ter nakažejo, kakšni izzivi nas čakajo v prihodnjem letu."
+    },
+    {
+      "id": "t-086",
+      "title": "From \"It Works\" to \"It's in Production\"",
+      "speaker": "Ivan Markovic",
+      "room": "Europa B",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 5,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "You can get a working app in a few minutes now. An AI assistant, a quick prototype, a generated codebase. For a first version, that works well. What happens next is where it gets interesting. There's a long distance between something that runs on your machine and something a company actually uses in production, and that distance is where most projects have always run into trouble. Writing code was rarely the real obstacle. The problems showed up somewhere else. Who is allowed to do what. How the process actually runs, not how someone thinks it runs. Which business rules apply, and which exceptions nobody mentioned until the system hit them. This is seldom clear at the start, and even when it is written down, people read it differently. As the cost of producing code falls, the hard part becomes what it always quietly was: understanding the domain, modeling the system, and designing how it should behave in the real world. In this session I'll look at two ways teams speed up building today, AI-assisted development and low-code platforms, less as competitors and more as tools that suit different jobs. We'll spend most of the time on the part that decides whether software gets used at all: the work around the code, from analysis and requirements to testing, change, and adoption. The engineers who matter won't be the ones who type fastest. They'll be the ones who understand how a system needs to work in practice. That was true before AI, and it's more true now."
+    },
+    {
+      "id": "t-087",
+      "title": "AI-Driven Production Health Monitoring and Automated Dump Analysis for Applications",
+      "speaker": "Raffaele Rialdi",
+      "room": "Europa D",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 35,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "ASP.NET",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "We often think of the great capabilities of Generative AI, yet practical, code-first use cases in existing applications remain confined. This session bridges that gap by unveiling a tool that I wrote to streamline .NET application monitoring and WinDbg/SOS-level dump diagnosis through AI orchestration. You will see how to leverage both the advanced reasoning and generative capabilities of LLMs, using them first to fully automate memory dump analysis and generate a report. This approach offers multiple advantages, including removing the reliance on a debugging expert, delivering instant results, and addressing critical privacy concerns. By ensuring sensitive production data is analyzed without human exposure, the process remains fully GDPR compliant. Hardcore debugging has never been this accessible."
+    },
+    {
+      "id": "t-088",
+      "title": "Workshop - Using AI to Simplify Azure Scripting and Management",
+      "speaker": "Aleksandar Nikolić",
+      "room": "Mediteranea 1",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T17:00:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "PowerShell",
+        "Azure IaaS",
+        "Infrastructure-As-Code",
+        "Copilot",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Managing Azure often involves juggling PowerShell, Azure CLI, Bicep, and KQL queries, which can quickly become complex. This workshop shows you how tools like GitHub Copilot for Azure, Azure and ARM MCP Servers, and GitHub Copilot customization can help reduce that complexity. You'll see practical demos covering everything from generating scripts to troubleshooting deployments, all using natural language. We'll cover real-world scenarios such as automating tasks, building infrastructure as code, querying for inventory data, and fixing common issues. You'll leave with concrete ways to integrate these tools into your daily Azure work, making it faster and more reliable."
+    },
+    {
+      "id": "t-089",
+      "title": "Shadow AI: Congratulations, Your Confidential Data Is in Someone Else’s Chatbot",
+      "speaker": "Primož Bratanič",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T14:00:00+02:00",
+      "end": "2026-09-22T14:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "OpenAI",
+        "Copilot",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Shadow AI is already inside the enterprise, whether IT approved it or not. Employees paste contracts, source code, credentials, incident data and internal conversations into chatbots, coding assistants and meeting bots with little visibility into where that data goes or who can access it later. This talk looks at how AI creates new exfiltration paths, how enterprise AI can magnify years of broken permissions and oversharing, and why “approved AI” is not automatically “safe AI.” Through practical examples, we will examine how quickly convenience defeats policy, DLP and common sense, and why organizations rushing to deploy AI may be creating a data-leakage problem they barely understand."
+    },
+    {
+      "id": "t-090",
+      "title": "Prihodnost nima tipkovnice: kako v Telekomu Slovenije soustvarjamo naslednjo generacijo glasovnih inteligentnih storitev",
+      "speaker": "Vid Čermelj, Nina Gljuk",
+      "room": "Adria",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "AI",
+      "level": 100,
+      "demo_pct": 20,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Glasovne storitve se po desetletjih razvoja ponovno postavljajo v središče digitalne izkušnje. Če so bile pretekle generacije telekomunikacij usmerjene predvsem v povezovanje ljudi, nastajajoča generacija storitev odpira prostor tudi za sodelovanje med ljudmi in umetno inteligenco. Na predavanju bomo preverili, kako Telekom Slovenije gradi temelje za prihodnost, v kateri bodo glasovni agenti postali naravni del govornih storitev. Predstavili bomo izkušnje z razvojem klepetalnih (chatboti) in glasovnih (voicebotov) robotov, izzive pri njihovem uvajanju v poslovne procese ter konkretne primere uporabe, od naprednega glasovnega usmerjanja klicev do avtomatizacije različnih delov uporabniške podpore. Pogledali bomo tudi korak dlje: kako bodo glasovni agenti postali sestavni del omrežja in zakaj prihodnost komunikacij morda ne temelji več na tipkovnici, temveč na pogovoru."
+    },
+    {
+      "id": "t-091",
+      "title": "Think Your Data Is Protected? Think Again.",
+      "speaker": "Omar Kudovic",
+      "room": "Emerald 1",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "Microsoft 365",
+      "level": 200,
+      "demo_pct": 90,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Produktivnost uporabnikov"
+      ],
+      "abstract": "Most organizations believe their sensitive data is under control—until the first accidental leak, overshared document, or compliance incident proves otherwise. In this session, we'll take a practical, no-nonsense look at how Microsoft Information Protection (MIP) and Microsoft Data Loss Prevention (DLP) can help organizations classify, protect, and govern their most valuable asset: their data. This is not a marketing presentation. There are no flashy slides, no sales pitch, and no theoretical discussions. Instead, you'll see how these technologies work in the real world through 90% live demonstrations based on production environments, real customer implementations, and lessons learned from the field. Whether you're a Microsoft 365 Administrator, Security Engineer, Compliance Specialist, IT Professional, or Security Architect, you'll leave this session with practical knowledge, proven implementation strategies, and ideas you can apply immediately in your own environment. Less PowerPoint. More production. More demos. More real-world experience."
+    },
+    {
+      "id": "t-092",
+      "title": "Agent Skills in Practice: Governing a Product Backlog with GitHub Copilot",
+      "speaker": "Ana Roje Ivancic, Ognjen Bajic",
+      "room": "Emerald 2",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 60,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Github",
+        "OpenAI",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "A vague backlog item is poor input for both agents and people. Now that agents act on your backlog, requirement quality matters even more. When backlog work remains manual, or teams use AI in disconnected chat contexts, they miss the real value of agentic workflows. We show how Agent Skills for GitHub Copilot and the Azure DevOps MCP Server turn backlog management into a governed, AI-assisted workflow: AI proposes and refines; people review and steer, and AI acts only upon approval. We’ll demo the flow from a spec to a hierarchical backlog with refined descriptions and test-ready acceptance criteria, all without manual editing. You'll learn how agent skills differ from prompt templates, how MCP changes what AI can do in Azure DevOps, and how approval gates keep people in control."
+    },
+    {
+      "id": "t-093",
+      "title": "Generating WebSharper source code generators",
+      "speaker": "Adam Granicz",
+      "room": "Europa B",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "Razvoj",
+      "level": 400,
+      "demo_pct": 25,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Web development",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "What if AI's most valuable contribution wasn't writing applications, but designing the languages used to describe them? This talk demonstrates how AI can generate WebSharper Source Code Generators that translate domain-specific languages into F#, leveraging WebSharper to produce complete, type-safe web applications. Rather than generating individual applications, AI generates reusable language translators that can produce entire families of web applications from domain-specific descriptions. We conclude by outlining a path towards constructing web applications directly from executable domain specifications."
+    },
+    {
+      "id": "t-094",
+      "title": "BYO disposable AI harness",
+      "speaker": "Ivan Čuljak",
+      "room": "Europa D",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "We were taught to build to last, to build reusable stuff, to preserve, to standardize. Now think of scaffolding - it checks all the above boxes, but it allows you to assemble it differently on every single building. Now that producing source code, and thus assembling components, is cheap - why think of your most internal SDLC loop as something rock solid, if your development concept can be kept rock solid while the actual development loop can be adapted to a specific task? The same question goes for the AI harness - why keep struggling with a harness which keeps changing and which provides you with a zillion capabilities you do not actually need for a specific task? In this talk, I'll take you through the process of building disposable niche, but deterministic harnesses which leverage stochastic AI processes where they have to - as opposed to using stochastic AI harnesses and hoping they'll actually use the deterministic tools and gates you told them to."
+    },
+    {
+      "id": "t-095",
+      "title": "Kyborg: Agentično ogrodje za varnostne analitike v SOC",
+      "speaker": "Aljaž Kerlatec, Alex Ternav",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T15:00:00+02:00",
+      "end": "2026-09-22T15:45:00+02:00",
+      "track": "Varnost",
+      "level": 200,
+      "demo_pct": 51,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "V predavanju bodo predstavili inovativno agentično ogrodje Kyborg, ki so ga razvili v podjetju KYBM. Ogrodje velike jezikovne modele spremeni v nadzorovano, zanesljivo orodje za varnostno-operativne centre (SOC) in varnostnim analitikom nudi podporo pri učinkovitejši obravnavi varnostnih incidentov. Incidente črpa iz različnih sistemov SIEM, prek protokola MCP pa ga je mogoče dinamično razširiti s poljubnimi zunanjimi orodji in viri. Z vgrajenim sistemom RAG jih obogati z relevantnim domenskim znanjem iz dokumentov organizacije, med razrešenimi incidenti pa poišče podobne pretekle primere in prenese že preverjene rešitve na nove, s čimer se čas obravnave občutno skrajša. Tako obogatene incidente analizira z uporabo javnih ali zasebnih velikih jezikovnih modelov ter analitikom pomaga hitreje razumeti dogodke in predlagati nadaljnje korake pri odzivu, s potrjevanjem občutljivih dejanj (human-in-the-loop) pa ogrodje omogoča tudi izvedbo različnih varnostnih akcij. Ponavljajoče se postopke lahko analitiki zajamejo v obliki ponovno uporabnih navodil (skills), ki jih agent samodejno poišče in uporabi pri podobnih primerih."
+    },
+    {
+      "id": "t-096",
+      "title": "kill -9 Your Agent: Durable AI Workflows with Microsoft Agent Framework",
+      "speaker": "Andrey Vykhodtsev",
+      "room": "Adria",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Everyone loves showing an agent that works — but what about an agent that survives, and learns something along the way? In this session we will violently kill an AI agent mid-orchestration, repeatedly, and watch it resume exactly where it left off. An agent's state lives in three places — in the conversation, in the execution, and in the knowledge — and each survives something different. We will meet Microsoft Agent Framework 1.0, the successor to Semantic Kernel and AutoGen, its Durable Task extension that adds durable execution to agent workflow graphs with automatic checkpointing, failure recovery, and human-in-the-loop approvals that can wait for days without consuming compute, and managed memory in Foundry Agent Service, with which we coach the agent once on a working procedure it then applies on its own in future runs — including procedural memory, inspection of stored records, and the right to be forgotten. We will explain why checkpoint storage alone is not durability, and how the very same workflow definition runs locally, on Azure Functions, or in your own container with zero code changes. All demos run in Python and are grounded in lessons from production agent systems in the insurance industry; this talk is for engineers moving agents from demo stage to systems that must also work at three in the morning."
+    },
+    {
+      "id": "t-097",
+      "title": "Exchange Online Security Best Practices",
+      "speaker": "Scott Schnoll",
+      "room": "Emerald 1",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 75,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Defender",
+        "Microsoft 365",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Microsoft Exchange remains a key target of attack by bad actors. Whether you are in the cloud, on-premises, or in a hybrid configuration, securing your Exchange environment is one of the most important things you can do. This session covers Microsoft's recommended best practices for securing Exchange Online environments, including zero trust, identity and access management, Defender, and more."
+    },
+    {
+      "id": "t-098",
+      "title": "Beyond the VPN: Secure Access to On-Premises Resources with Microsoft Entra",
+      "speaker": "Damir Dizdarevic",
+      "room": "Emerald 2",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 25,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "EMS",
+        "Entra",
+        "Microsoft 365",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Microsoft Entra Global Secure Access represents Microsoft’s modern approach to securing access to applications and resources without relying on traditional VPN solutions. This session will explore how the platform can be used to provide secure access to on-premises resources by applying Zero Trust principles. The main focus will be on Microsoft Entra Private Access, its architecture, and the way it connects users to internal applications, servers, and services. Attendees will learn how access decisions can be based on user identity, device posture, location, risk level, and other contextual signals. The session will also highlight the key differences between Entra Private Access and conventional VPN technologies, including security, operational, and user-experience benefits. Practical implementation topics will include infrastructure planning, connector deployment, private resource publishing, and Conditional Access policy configuration. A live demonstration will show how users can securely access internal on-premises services from a remote location."
+    },
+    {
+      "id": "t-099",
+      "title": "Keep It Forever. Keep It Here. Keep It Secure. Good Luck.",
+      "speaker": "Primož Bratanič",
+      "room": "Europa B",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "Podatki",
+      "level": 200,
+      "demo_pct": 1,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "GDPR",
+        "Web development",
+        "Fabric",
+        "OpenAI",
+        "Podatki in analitika"
+      ],
+      "abstract": "Slovenian IT gets interesting when the same data is simultaneously personal data, health data, archival material and part of a regulated information system. This talk explores the magical combination of ZVDAGA, ZAGOPP, ZInfV-1 and Article 23 of ZVOP-2: what must be preserved, where it may be stored, when its physical location must be known, which security and incident-reporting obligations apply, and what all of this means for modern cloud architectures. Using realistic public-sector and healthcare scenarios, we will follow a single piece of data through the regulatory maze and discover why “legal approved it”, “security approved it” and “the cloud vendor supports it” are three very different statements. And because this is 2026, we will finally ask the obvious question: what happens when somebody decides to feed all of it into AI?"
+    },
+    {
+      "id": "t-100",
+      "title": "From Chaos to Fluency: Transforming our Engineers to be AI-Native",
+      "speaker": "Goran Brlas",
+      "room": "Europa D",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "AI",
+      "level": 400,
+      "demo_pct": 0,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "A few years ago, the term “AI adoption” meant a handful of enthusiastic engineers using one of the available chatbots, venting about the code it produced, and laughing at the notion that we would get to a point where AI could be so impactful in our line of work. Fast forward to today, and the story is quite different. AI is now ingrained in our way of working, and having a governed practice, with company-wide standards and tooling built into the workflow, isn’t a nice-to-have anymore. It’s table stakes. In this talk, I’ll cover how we approached our AI transformation: why it stalled when left to its own devices, what we tried and abandoned along the way, and what we’d tell ourselves if we were starting over today."
+    },
+    {
+      "id": "t-101",
+      "title": "A Nightmare on Cloud Street: Horror Stories from the Field",
+      "speaker": "Mustafa Toroman",
+      "room": "Mediteranea 2",
+      "start": "2026-09-22T16:00:00+02:00",
+      "end": "2026-09-22T16:45:00+02:00",
+      "track": "Azure",
+      "level": 200,
+      "demo_pct": 1,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure IaaS",
+        "Azure PaaS",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Cloud has many possibilities but also many traps. And believe us, we've seen it all. From huge bills, over wrong tools to security incidents... And any combination of it. Join us and see what the most common mistakes are and what to avoid on your journey to the Cloud."
+    },
+    {
+      "id": "t-102",
+      "title": "PowerShell with an Extremely Confident Intern",
+      "speaker": "Aleksandar Nikolić",
+      "room": "Adria",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 90,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "PowerShell",
+        "Copilot",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Writing PowerShell often means dealing with repetitive code, cryptic errors, documentation nobody wants to write, and tests everybody skips. AI tools can help, but only if you know what to ask, what to verify, and when the answer is confidently wrong. In this session, we'll use GitHub Copilot, MCP servers (which let AI tools query live systems such as Microsoft Graph rather than guessing), and other AI tools to tackle real PowerShell tasks, including refactoring scripts, generating documentation, hunting for bugs, and writing tests. We'll watch Copilot misdiagnose a script failure with complete confidence, then walk through how to catch that kind of mistake before it reaches production. This isn't a parade of perfect demos. You'll leave with a practical checklist for validating AI-generated PowerShell code, along with a better understanding of where these tools genuinely save time and where they quietly end up costing more than they save."
+    },
+    {
+      "id": "t-103",
+      "title": "Novosti v Microsoft 365 Copilotu - Od pomočnika do digitalnega sodelavca",
+      "speaker": "Sandi Jordan",
+      "room": "Emerald 1",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Microsoft 365",
+      "level": 100,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Copilot",
+        "Produktivnost uporabnikov"
+      ],
+      "abstract": "Microsoft 365 Copilot se razvija iz pametnega pomočnika v aktivnega digitalnega sodelavca, ki ne le odgovarja na vprašanja, temveč pomaga načrtovati, ustvarjati vsebine, analizirati podatke in izvajati poslovne procese. Na predavanju bomo predstavili najpomembnejše novosti zadnjega leta: nove agente v Microsoft 365, napredne zmogljivosti Copilot Chat, uporabo Work IQ za razumevanje poslovnega konteksta ter nove izkušnje v Wordu, Excelu, PowerPointu, Outlooku in Teamsu. S praktičnimi primeri bomo pokazali, kako lahko organizacije z uporabo Copilota in agentov povečajo produktivnost zaposlenih ter pospešijo digitalno transformacijo."
+    },
+    {
+      "id": "t-104",
+      "title": "Ko SharePoint ni več dovolj: pot do poslovne aplikacije s Power Platform",
+      "speaker": "Robert Kreslin",
+      "room": "Emerald 2",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "SharePoint",
+        "Power Automate",
+        "Power Apps",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "V številnih organizacijah se digitalizacija poslovnih procesov začne z Excel preglednicami in SharePoint seznami, saj omogočajo hitro uvedbo rešitve z minimalnimi stroški in brez zahtevnega razvoja. Toda ko število uporabnikov, količina podatkov in poslovne zahteve začnejo naraščati, se organizacije pogosto znajdejo pred vprašanjem, kako obstoječo rešitev nadgraditi, ne da bi pri tem izgubile prednosti, ki jih prinaša platforma Microsoft 365. Na predavanju bomo skozi resničen primer iz prakse predstavili pot razvoja poslovne rešitve, ki se je začela s SharePoint seznamom, nato pa se postopoma razvila v celovito poslovno aplikacijo na platformi Microsoft Power Platform. Sprehodili se bomo skozi ključne odločitve, izzive in mejnike projekta ter pokazali, kako se potrebe uporabnikov skozi čas spreminjajo in zakaj rešitve, ki so bile na začetku popolnoma ustrezne, sčasoma pogosto dosežejo svoje omejitve. Predstavili bomo, kako smo izboljšali uporabniško izkušnjo z uporabo Power Apps, kako smo reševali izzive pri večjem številu zapisov ter kakšno vlogo ima Dataverse pri gradnji sodobnih poslovnih aplikacij. Dotaknili se bomo tudi povezovanja z zunanjimi sistemi, avtomatizacije procesov in integracij, ki poslovnim aplikacijam dodajo pravo vrednost ter jih iz enostavnih obrazcev spremenijo v pomemben del poslovnega informacijskega sistema. Predavanje ne bo osredotočeno zgolj na tehnologijo, temveč predvsem na izkušnje iz prakse, pridobljena znanja in odločitve, ki jih morajo sprejemati organizacije pri načrtovanju svoje digitalne poti. Udeleženci bodo dobili vpogled v to, kdaj je SharePoint še vedno odlična izbira, kdaj je smiselno razmisliti o uporabi Dataversa in Power Platform ter kako prepoznati trenutek, ko preprosta rešitev preraste v poslovno aplikacijo."
+    },
+    {
+      "id": "t-105",
+      "title": "Red vs Blue: AI Edition",
+      "speaker": "Miha Pihler, Milan Gabor",
+      "room": "Europa A+C",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T11:00:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Red vs Blue: AI Edition je praktično predavanje o uporabi umetne inteligence pri napadih in obrambi okolij Active Directory in Microsoft 365. Na strani Red Teama bomo prikazali, kako lahko AI pomaga pri analizi domenskega okolja, iskanju napačnih konfiguracij, načrtovanju poti do višjih privilegijev ter pri napadih na identitete in Microsoft 365. Na strani Blue Teama bomo pokazali, kako lahko AI pomaga pri analizi Windows in Microsoft 365 dogodkov, prepoznavanju sumljivega vedenja, korelaciji aktivnosti ter hitrejšem odzivu na incidente. Predavanje bo temeljilo na praktičnih demonstracijah in prikazalo, kako AI spreminja klasičen boj med napadalcem in branilcem v okoljih AD, Entra ID in Microsoft 365."
+    },
+    {
+      "id": "t-106",
+      "title": "BDD Reloaded: AI-Assisted Collaboration from Business Intent to Executable Tests",
+      "speaker": "Ognjen Bajic, Ana Roje Ivancic",
+      "room": "Europa B",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "DevOps",
+        "Github",
+        "OpenAI",
+        "Copilot",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Behavior-Driven Development (BDD) is 20+ years old, yet most teams never try it; the rest reduce it to a testing format rather than business–development collaboration. The main challenges: refinement is slow, scenarios are hard to write, and automation is costly to maintain. With practice-tested agent skills, AI accelerates refinement, sharpens requirements into clear, complete acceptance criteria, expands scenarios, writes Gherkin and its automation code. In a live demo, we show how the business describes intent in natural, domain language while development turns it into living documentation and automated verification. We cover benefits, risks, and failure modes of AI-assisted BDD. Core message: BDD is finally easy enough for everyday work. AI removes the friction, not the conversation."
+    },
+    {
+      "id": "t-107",
+      "title": "Beyond Chat: Building Agentic Apps",
+      "speaker": "Denis Mušić",
+      "room": "Europa D",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Razvoj aplikacij"
+      ],
+      "abstract": "What happens when AI is no longer just a chatbot but becomes an active part of our application? In this presentation, we will demonstrate how to build agents capable of using tools, calling APIs, collaborating with other agents, and executing specific tasks. The focus is on practical examples and real-world scenarios from .NET application development."
+    },
+    {
+      "id": "t-108",
+      "title": "Checkmate: Real Incidents That Can End a Software Company",
+      "speaker": "Jasmin Azemović",
+      "room": "Mediteranea 1",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Defender",
+        "Razvoj aplikacij"
+      ],
+      "abstract": "Security failures rarely start with sophisticated zero-day exploits. In most cases, they begin with ordinary decisions: a rushed commit, a misconfigured cloud service, an overlooked alert, or a trust assumption that no longer holds. I’ve seen how real-world incidents unfold, not in theory, but in live production environments with customers, revenue, and reputations on the line. This talk breaks down five real incident scenarios that placed software companies in “checkmate” positions and is presented from the defender’s perspective, showing how technical failures, process gaps, and human factors intersect. We will examine how attacks moved through CI/CD pipelines, cloud platforms, identity systems, and third-party dependencies. This session is not about fear, compliance checklists, or abstract security theory. It is a practical, experience-driven look at how companies actually fail, and what developers, architects, and engineering leaders can do differently to avoid repeating the same mistakes. Attendees will leave with concrete lessons on design decisions, development practices, and security assumptions that silently determine whether an incident becomes a manageable disruption or a company-ending checkmate."
+    },
+    {
+      "id": "t-109",
+      "title": "What’s New in Windows Server 2025 for cloud-focused IT Pros",
+      "speaker": "Sander Berkouwer, Tomislav Fučkar",
+      "room": "Mediteranea 2",
+      "start": "2026-09-23T09:00:00+02:00",
+      "end": "2026-09-23T09:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Hyper-V",
+        "Windows Server",
+        "PowerShell",
+        "Azure IaaS",
+        "Entra",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Windows Server 2025 is Microsoft’s latest and greatest Windows Server operating system. Now that it is on the market for over a year, Tom and Sander have migrated over many organizations from previous versions of Windows Server to Windows Server 2025 in hybrid and cloud environments. They'll provide answers to your questions: What is Windows Server 2025’s place in cloud-focused environments where Platform-as-a-Service (PaaS) rules the day? Does Windows Server play nicely with other Microsoft Cloud services like Azure, Entra and Microsoft 365? What are the out-of-the-box features that you can leverage or have to heed, and what role do the monthly cumulative updates have in all this? This is not a Windows Server 2025 marketing session. If you want to really know what Windows Server 2025 brings and has already brought in real-world scenarios, this is the session you’ll want to attend!"
+    },
+    {
+      "id": "t-110",
+      "title": "SQL Server 2025 Optimized Locking",
+      "speaker": "Mladen Prajdić",
+      "room": "Emerald 1",
+      "start": "2026-09-23T10:00:00+02:00",
+      "end": "2026-09-23T10:45:00+02:00",
+      "track": "Podatki",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "SQL Server",
+        "Podatki in analitika"
+      ],
+      "abstract": "Introduced in SQL Server 2025, optimized locking improves transaction locking mechanism to reduce lock blocking and lock memory consumption for concurrent transactions. It's composed of two primary components: transaction ID (TID) locking and lock after qualification (LAQ). In this session, we'll look into how this works and how we can use it to improve our server's locking concurrency."
+    },
+    {
+      "id": "t-111",
+      "title": "Microsoft 365 Governance in the Microsoft 365 Copilot Age",
+      "speaker": "Slavko Kukrika",
+      "room": "Emerald 2",
+      "start": "2026-09-23T10:00:00+02:00",
+      "end": "2026-09-23T10:45:00+02:00",
+      "track": "Azure",
+      "level": 200,
+      "demo_pct": 35,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Microsoft 365 Copilot increases productivity, but it also exposes flawed data governance. This session explores the paradigm shift where AI respects existing user permissions but instantly surfaces hidden, overshared data. Building upon a foundation of document classification, granular permissions, and robust access controls, session will shift focus into the mechanics of end-to-end data lifecycle management and data retention within Microsoft 365. We will explore how retention labels and retention policies control how long data resides inside Microsoft 365."
+    },
+    {
+      "id": "t-112",
+      "title": "Copilot v Excelu",
+      "speaker": "Gašper Kamenšek",
+      "room": "Europa B",
+      "start": "2026-09-23T10:00:00+02:00",
+      "end": "2026-09-23T10:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 99,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "AI promises to change the world—and it is easy to believe that, with AI at our fingertips, we can change it too. In this session, we’ll put that promise to the test with Copilot in Excel. We’ll explore what it can really do, where it shines, where it falls short, and ultimately ask: how realistic is it to expect Copilot in Excel to change the way we work."
+    },
+    {
+      "id": "t-113",
+      "title": "Entra.News: kaj ste zamudili od zadnjega NT-ja",
+      "speaker": "Matej Klemenčič",
+      "room": "Mediteranea 1",
+      "start": "2026-09-23T10:00:00+02:00",
+      "end": "2026-09-23T10:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Entra",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Ste prebrali vse Microsoftove bloge o Entra ID v zadnjem letu? Ne? Dobrodošli v večini. Nekateri so bili objavljeni z glasnimi fanfarami, drugi so tiho zdrsnili v produkcijo, ne da bi kdorkoli opazil. Skupaj bomo pregledali oboje: tisto, kar bi morali že vedeti in tisto, kar boste prvič slišali danes. Nekatere od teh sprememb so se namreč že zgodile v vašem okolju."
+    },
+    {
+      "id": "t-114",
+      "title": "Od RAG-a do agentov: kako zgraditi zaupanja vreden AI operacijski model",
+      "speaker": "Marko Kokol",
+      "room": "Mediteranea 2",
+      "start": "2026-09-23T10:00:00+02:00",
+      "end": "2026-09-23T10:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Azure PaaS",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Podjetja so v zadnjih letih preizkušala generativno umetno inteligenco, RAG arhitekture in velike jezikovne modele, vendar se prava konkurenčna prednost začne šele takrat, ko AI postane del operacijskega modela organizacije. Naslednji korak niso samo boljši chatboti, ampak agentni sistemi, ki znajo uporabljati orodja, dostopati do znanja, preverjati vire, izvajati omejene korake v poslovnih procesih in pustiti sledljivo razlago svojih odločitev. V predavanju bomo pogledali, kako preiti od klasičnega RAG sistema do varnega agentnega RAG vzorca, kjer model ne odgovarja samo na vprašanja, temveč deluje znotraj jasno določenih pravil, dovoljenj, evalvacij in človeškega nadzora. Poseben poudarek bo na sveže veljavnem AI Act, slovenskem jeziku, domensko specifičnem znanju, varovanju podatkov, prompt-injection tveganjih, merjenju kakovosti in povezavi med AI arhitekturo ter poslovnimi KPI-ji. Demo bo prikazal majhno, a realno arhitekturo slovenskega domenskega agenta, ki dela z dokumenti, uporablja omejena orodja, beleži odločitve in omogoča preverjanje kakovosti odgovorov ter izvedenih korakov."
+    },
+    {
+      "id": "t-115",
+      "title": "Automating technical documentation in lab environments with Microsoft Copilot",
+      "speaker": "Vladimir Meloski, Ivanka Hadji-Petrusheva Meloska",
+      "room": "Adria",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "AI is changing how teams create and manage documentation, governance processes, and quality records. In highly regulated environments such as medical labs, key priorities include accuracy, consistency, traceability, and audit readiness. Microsoft Copilot can support common procedures in laboratories with their compliance with different ISO regulations. Tasks include creating and updating procedures, preparing incident reports and deviation reports, tracking performance indicators, and creating controlled documents. When used together with good quality-management practices—such as clear ownership, approvals, access control, audit trails, retention rules, and training records, Microsoft Copilot reduces the occurrence of manual errors and makes processes easier to repeat and verify. In this session, you will learn how Microsoft Copilot can help simplify documentation work, make reports more consistent, and keep records well controlled across complex lab systems. You will also learn how to keep information accurate, compliant, and traceable from creation to approval and long-term use."
+    },
+    {
+      "id": "t-116",
+      "title": "A real-world approach to transitioning Domain Controllers to Windows Server 2025",
+      "speaker": "Sander Berkouwer",
+      "room": "Emerald 1",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Windows Server",
+        "Entra",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Windows Server 2025 is Microsoft's latest and greatest. As Domain Controllers, they scale further than ever and offer a new security baseline. ... but if your organization uses Domain Controllers with previous versions of Windows Server, the task to transition to Windows Server 2025 may feel insurmountable. There is significant history in your Active Directory, there are many challenges and you'll face obstacles you didn't envision at the start of the project. In this session, Sander Berkouwer and Tomislav Fučkar share their battle-tested transitioning method for Domain Controllers. Not only did they lead and perform transition projects, they are allowing everyone to benefit from their approach, their knowledge and their experience. When you walk away from this presentation, you'll have all the tools you need and feel confident enough to tackle the challenge of transitioning all your Domain Controllers to Windows Server 2025."
+    },
+    {
+      "id": "t-117",
+      "title": "How to build Agent in Microsoft Copilot without MS Copilot studio",
+      "speaker": "Nenad Trajkovski",
+      "room": "Emerald 2",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 100,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Copilot said: We’ve all heard about Copilot. And about agents. But what if you want to create your very own agent? Coding? Nooooo. And I’m not talking about Copilot Studio. I’m talking about creating an agent directly from Copilot itself — without writing a single line of code. And you can build such an agent in just 15 minutes. Come to this session and I’ll show you how. Then you’ll be able to create your own agents too!"
+    },
+    {
+      "id": "t-118",
+      "title": "Požarni zid Windows - drugi del",
+      "speaker": "Miha Pihler",
+      "room": "Europa B",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "V drugem delu predavanja si bomo ogledali napredne tehnike uporabe in upravljanja požarnega zidu Windows, med drugim: uporabo IPsec znotraj požarnega zidu za dodaten nadzor nad dostopi, ki so lahko vezani na uporabnika ali računalnik, upravljanje požarnega zidu s pomočjo rešitve Microsoft Intune, dodatne možnosti centraliziranega upravljanja s pomočjo oblaka. Predavanje temelji na več kot 10 letih praktičnih izkušenj z implementacijo in uporabo požarnega zidu Windows."
+    },
+    {
+      "id": "t-119",
+      "title": "The End of Manual Tasks: Automating Networks, Virtualization and Windows Environments with Ansible Automation Platform",
+      "speaker": "Simon Babič",
+      "room": "Europa D",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "Razvoj",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Linux",
+        "DevOps",
+        "Infrastructure-As-Code",
+        "DevOps, razvojna orodja in arhitektura"
+      ],
+      "abstract": "Most organizations still rely on individual scripts for automation, often understood only by the person who wrote them. Ansible Automation Platform offers a different approach: centralized, repeatable and controlled automation with clearly defined access rights and a complete audit trail of all executions. Through practical examples from a managed services environment, the session will demonstrate how to automate network device configuration backup and restore, virtual machine provisioning, server patch management, and Active Directory tasks. Special emphasis will be placed on real-world experience – where implementations most often run into challenges, which pitfalls are often left out of the documentation, and what we would do differently today."
+    },
+    {
+      "id": "t-120",
+      "title": "My Data is GOOD?",
+      "speaker": "Catalin Gheorghiu",
+      "room": "Mediteranea 1",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "Podatki",
+      "level": 200,
+      "demo_pct": 70,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Fabric",
+        "Podatki in analitika"
+      ],
+      "abstract": "Common scenario: let’s do shortcuts soup, doing an ETL pipeline we could have GIGO. How to validate the data, for example in a Databricks based pipeline. What are the expectations (pun intended) that we can do? On this sweet session, Kinder chocolates sweet, we will explore what tools can use and when, and what are the benefits of using that specific tool. As a result would not be lost when you realize that you need data validation, and you need it just maybe you do not realize it."
+    },
+    {
+      "id": "t-121",
+      "title": "Revolucija žetonov",
+      "speaker": "Ivan Kovač",
+      "room": "Mediteranea 2",
+      "start": "2026-09-23T11:00:00+02:00",
+      "end": "2026-09-23T11:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Azure IaaS",
+        "Azure PaaS",
+        "Fabric",
+        "Microsoft 365",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Prvi je sledila druga, tretja, in prišla je četrta industrijska revolucija. Zagotovo pride peta, po nekaterih ocenah, je že. V četrti so fizični in digitalni sistemi konvergirali v kibernetske sisteme. Ključni a ne edini akterji so računalništvo v oblaku, veliki podatki in internet stvari. Prav prva dva sta omogočila tudi ponovni razcvet umetne inteligence. A ena stvar je ostala nespremenjena, poraba virov ustvarja strošek in račune. Operativni model FinOps Framework in specifikacija FOCUS pomagata porabo in strošek razumeti, razdeliti in optimizirati. Na podlagi razumevanja lahko količinsko ovrednotimo in določimo vrednost porabe. Povezava porabe s poslovno vrednostjo in pričakovanji nam omogoči pravočasno sprejemanje poslovnih odločitev. Kdo so torej ključni akterji in kaj je gorivo pete industrijske revolucije? Verjetno ne edina a agent in kontekst sta zagotovo ključna akterja. Kaj pa je gorivo? V moderni ekonomiji ima več vlog kot katerokoli drugo blago v moderni zgodovini. Je enota vrednosti s katero želijo podjetja ustvarjati dobičke. V resnici je komercialni izraz celotne ekonomije umetne inteligence. Podatek o ceni še ne pove, ali ustvarjamo poslovno vrednost. Kaj je torej žeton? In kaj imajo s tem FinOps Framework, FOCUS, ekonomija enote in finančna odgovornost posameznika? To so prava vprašanja."
+    },
+    {
+      "id": "t-122",
+      "title": "Ko zaupanje postane ranljivost: napad na sodobno Active Directory okolje",
+      "speaker": "Žan Urbančič, Danijela Šantak",
+      "room": "Adria",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Active Directory",
+        "Windows Server",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "When Trust Becomes a Vulnerability: Attacking a Modern Active Directory Environment In modern Active Directory environments, an attacker does not always need a stolen password to take over a domain. Often, it is enough to understand how applications, service accounts, LDAP integrations, Kerberos authentication, delegation mechanisms, and credential storage systems are interconnected. In this technically in-depth presentation, we will demonstrate a realistic attack scenario that begins with a seemingly ordinary business application integrated with Active Directory. By exploiting an inadequately protected configuration and abusing the trust relationship between the application and the directory, the attacker obtains access to an initial service account. On its own, this account does not provide complete control of the environment, but it opens the door to the world of domain identities, Kerberos tickets, computer accounts, and delegation paths. Through a live demonstration, we will show how limited initial access can gradually evolve into more advanced abuse of Active Directory mechanisms. The presentation will cover service account abuse, Kerberos authentication without knowing passwords, temporary credentials, Resource-Based Constrained Delegation (RBCD), Kerberos Constrained Delegation (KCD), and manipulation of Service Principal Name (SPN) records. Particular emphasis will be placed on the fact that these mechanisms are legitimate components of Windows environments, yet when misconfigured, they can become powerful tools in the hands of an attacker. In the final part, we will demonstrate how a compromised server can also put seemingly securely stored secrets at risk, such as administrative credentials kept in local tools or password vaults. The presentation concludes with a complete domain takeover and an analysis of the key points at which an organization could have detected, contained, or prevented the attack. The main message of the presentation is clear: modern attacks against Active Directory are no longer just attacks on passwords. They are attacks on trust, configuration, and identity paths that organizations often fail to monitor closely enough."
+    },
+    {
+      "id": "t-123",
+      "title": "Power Platform administracija in governance: kako omogočiti inovacije brez izgube nadzora",
+      "speaker": "Rajko Lah",
+      "room": "Emerald 1",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 10,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Power Automate",
+        "Power Apps",
+        "Microsoft 365",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Power Platform organizacijam omogoča hitro digitalizacijo procesov, avtomatizacijo dela in razvoj aplikacij brez klasičnega razvojnega cikla. Prav ta hitrost pa za IT odpira nova vprašanja: kdo lahko ustvarja aplikacije, kateri konektorji so dovoljeni, kako zaščititi podatke, kako upravljati okolja in kako preprečiti nenadzorovano širjenje rešitev. Na predavanju bomo pogledali, kako vzpostaviti učinkovit governance model za Power Platform. Osredotočili se bomo na administracijo okolij, DLP politike, varnostne vloge, upravljanje konektorjev, spremljanje uporabe, življenjski cikel aplikacij in tokov ter uporabo Center of Excellence pristopa. Cilj ni zavirati uporabnikov, temveč jim dati varne okvirje, v katerih lahko gradijo uporabne rešitve."
+    },
+    {
+      "id": "t-124",
+      "title": "Microsoft Entra ID: A Year of Updates in One Session",
+      "speaker": "Slavko Kukrika",
+      "room": "Emerald 2",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "Azure",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Microsoft 365",
+        "Azure okolja in Hibridni oblak"
+      ],
+      "abstract": "Microsoft Entra ID is the foundational directory service used by Microsoft 365 and Azure. In this session, we will explore the updates added to the Microsoft Entra ID platform over the past year. Among other features, we will introduce and demonstrate: Backup and Recovery: A feature that automatically captures snapshots of identities and configurations, allowing you to quickly revert them to a \"known good\" state. Account Recovery: A capability powered by Verified ID that uses face recognition to enable users to regain access to their accounts even after losing all registered authentication methods. Tenant Governance: A solution providing centralized discovery, monitoring, and management across multiple Microsoft tenants. We will also cover updates to conditional access policies, roles, and other security improvements."
+    },
+    {
+      "id": "t-125",
+      "title": "From Documents to Intelligence: The Future of SharePoint with AI",
+      "speaker": "Robi Vončina",
+      "room": "Europa B",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "AI",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Office 365",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "SharePoint is no longer just a document repository. Discover how Microsoft is transforming SharePoint into an AI-powered knowledge platform with Copilot, Knowledge Agents, and SharePoint Premium. Learn how organizations can leverage AI to extract knowledge from content, automate business processes, and enable employees to find answers instead of files. Join us for a practical and inspiring look at the future of information management in Microsoft 365."
+    },
+    {
+      "id": "t-126",
+      "title": "Kaj počne naprava, ko ne gledamo? Od analize komunikacije do skrivnosti v firmwareu",
+      "speaker": "David Kavčnik",
+      "room": "Europa D",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "Varnost",
+      "level": 100,
+      "demo_pct": 1,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Open Source",
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Kaj v resnici počne omrežna naprava, ko je nihče ne opazuje? Na primeru cenovno dostopne omrežne oziroma IoT-naprave bomo prikazali praktičen postopek varnostne analize – od prvih sumljivih povezav proti oddaljenim strežnikom do pridobivanja in analize firmwarea. Spremljali bomo omrežni promet, identificirali zunanje storitve, razstavili firmware ter pregledali datotečni sistem, konfiguracijo in ključne programske komponente. Iskali bomo vgrajene ključe, poverilnice, skrite diagnostične funkcije, nevarne protokole in druge mehanizme, ki lahko proizvajalcu ali napadalcu omogočijo dostop do naprave. Predavanje bo temeljilo na resnični analizi naprave in praktičnih demonstracijah. Poleg konkretnih ugotovitev bo predstavljen tudi ponovljiv pristop, s katerim lahko preverimo, kaj se dejansko skriva v napravah, ki jim vsakodnevno zaupamo dostop do svojih omrežij."
+    },
+    {
+      "id": "t-127",
+      "title": "AI-assisted OWASP ASVS compliance process",
+      "speaker": "Goran Šiška",
+      "room": "Mediteranea 1",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "Razvoj",
+      "level": 200,
+      "demo_pct": 60,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Razvoj aplikacij"
+      ],
+      "abstract": "The talk covers the complete workflow, from interpreting ASVS requirements to validating implementations, highlighting both the strengths and limitations of AI-assisted security reviews and the role of human expertise in the process."
+    },
+    {
+      "id": "t-128",
+      "title": "Bring Your Own Agent: LangGraph in Production on Foundry Agent Service",
+      "speaker": "Andrey Vykhodtsev",
+      "room": "Mediteranea 2",
+      "start": "2026-09-23T13:00:00+02:00",
+      "end": "2026-09-23T13:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "Foundry Agent Service reached general availability in July 2026, and the best part of the story is that you do not have to rewrite your agent for it. In this session we take an existing agent written in LangGraph and host it as a Foundry hosted agent without touching its logic: every session runs in its own VM-isolated sandbox, and the agent automatically receives its own Entra identity, a dedicated endpoint, a persistent home directory, and OpenTelemetry tracing. Then we go where the marketing ends: through the full azd lifecycle from init to deploy, through generating and running evaluations, to the agent optimizer, which proposes improvements as ranked candidates with a complete audit trail and one-command rollback. Along the way we tick off the practical traps: immutable versions with no traffic splitting, sandbox size ceilings, billing by active sessions, private container registry rules, choosing between the Responses and Invocations protocols, and how all of this compares to Container Apps and AKS. The talk is grounded in a real architecture decision from a production project and is aimed at everyone moving agents from prototypes into governed, managed production on Azure."
+    },
+    {
+      "id": "t-129",
+      "title": "What does data science look like now that everyone has access to an LLM?",
+      "speaker": "Tomaž Kaštrun",
+      "room": "Adria",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 60,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Azure Stack / Azure pack",
+        "OpenAI",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "LLMs and Generative AI have changed the way we think about data science. But how much have they really changed the work of a data scientist? In this session we will look at a changes, what have stayed the same, and where traditional machine learning still fits in a increasingly dominated foundation models and AI tools in Microsoft Azure. In this session, we will explore what data looks like in Azure in the age of LLMs and GenAI. What has fundamentally changed? What remains the same and when should we use LLMS versus traditional learning and data science techniques. Through practical demos, we will explore how the data science workflow is evolving - from tools and programming languages to user experience, interacting with Azure portal and day-to-day development. And explore where LLMs can genuinely help us with smarter, faster, and more effective delivery."
+    },
+    {
+      "id": "t-130",
+      "title": "SharePoint permissions management with Power Automate",
+      "speaker": "Klemen Vončina",
+      "room": "Emerald 1",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "Microsoft 365",
+      "level": 200,
+      "demo_pct": 80,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "SharePoint",
+        "Power Automate",
+        "Power Apps",
+        "Produktivnost uporabnikov"
+      ],
+      "abstract": "When you start breaking SharePoint permissions inheritance, keeping track of who has access to what can become tricky. In this session, we will look at how we can use Power Automate to create permission reports, add and remove permissions, and even use some tricks to allow users to work with items without giving them permissions."
+    },
+    {
+      "id": "t-131",
+      "title": "Intune - what is new",
+      "speaker": "Jan Bočko Kuhar",
+      "room": "Emerald 2",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 200,
+      "demo_pct": 50,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows 11",
+        "Microsoft 365",
+        "Copilot",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "The biggest new Intune capabilities over the past year center on AI‑powered automation, deeper cross‑platform device control, stronger security workflows, and major improvements to update orchestration."
+    },
+    {
+      "id": "t-132",
+      "title": "Rdeča ekipa ne spi več",
+      "speaker": "Milan Gabor",
+      "room": "Europa A+C",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "Varnost",
+      "level": 300,
+      "demo_pct": 30,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Omrežja, varnost in identitete"
+      ],
+      "abstract": "Umetna inteligenca spreminja ofenzivno kibernetsko varnost iz dejavnosti, omejene s človeškim tempom, v neprekinjeno delovanje s hitrostjo strojev. Na predavanju bomo raziskali vzpon avtonomnih agentov umetne inteligence, ki so sposobni napadati domene Windows, aplikacije in informacijsko infrastrukturo. Spoznali bomo »abliterirane« modele – odprte modele, ki so bili spremenjeni tako, da so njihove varnostne zavrnitve odstranjene ali bistveno oslabljene. Pokazali bomo, zakaj so zaradi nizkih stroškov in možnosti lokalnega izvajanja dostopni, zasebni ter jih je težko nadzorovati. V nasprotju s tradicionalno avtomatizacijo lahko ti agenti analizirajo neznana okolja, uporabljajo orodja, pridobivajo ponovno uporabne veščine, se prilagajajo ob neuspehu in nadaljujejo delo brez stalnega človeškega usmerjanja. Skozi nadzorovane demonstracije v izoliranem laboratorijskem okolju bomo spremljali agente pri analizi sistemov, odkrivanju napadalnih poti ter poskusih kompromitacije simulirane domene Windows in ranljivih aplikacij. V zaključku bomo predstavili, kaj ta premik pomeni za branilce. Če lahko napadalci delujejo neprekinjeno in s hitrostjo strojev, morajo varnostne ekipe na novo premisliti zaščito identitet, segmentacijo omrežij, nadzor, upravljanje napadalnih poti in odzivanje na incidente. Hkrati morajo začeti uporabljati obrambno avtomatizacijo, ki bo sposobna slediti hitrosti novih groženj. Rdeči ekipi ni več treba spati. Je vaša obramba pripravljena?"
+    },
+    {
+      "id": "t-133",
+      "title": "Copilot Cowork: From Answering Questions to Doing the Work",
+      "speaker": "Sead Borovina",
+      "room": "Europa B",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "AI",
+      "level": 300,
+      "demo_pct": 20,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Copilot",
+        "Umetna inteligenca in poslovne rešitve"
+      ],
+      "abstract": "New kid on the block (relatively new) - Copilot Cowork - does the work and hands you the finished artefact. In this session we position Cowork against Chat and traditional agents, explain what it is then break down what makes it tick: Skills, Plugins, Work IQ, and the usage-based billing gate that must be switched on before anyone in your tenant sees it at all. We go deeper on extending Cowork: authoring your own skills as simple SKILL.md instructions to encode your team's standards and bundling them with connectors as plugins to reach the systems where your data actually lives, with tips and tricks from the field."
+    },
+    {
+      "id": "t-134",
+      "title": "DAMA Slovenija: Zakaj je Data Management v dobi AI še pomembnejši",
+      "speaker": "Mitja Hafner",
+      "room": "Europa D",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "Podatki",
+      "level": 100,
+      "demo_pct": 10,
+      "lang": "en",
+      "synthetic": false,
+      "tags": [
+        "Podatki in analitika"
+      ],
+      "abstract": "DAMA izhaja iz preprostega načela: podatki so strateško sredstvo organizacije in jih je treba sistematično upravljati. Z razvojem AI to postaja še pomembnejše. V okviru predavanja bomo najprej predstavili DAMA International – globalno, neprofitno in vendor-neodvisno strokovno združenje na področju Data Managementa – ter letos ustanovljeno DAMA Slovenija, slovenski chapter, katerega namen je povezovanje podatkovnih strokovnjakov, izmenjava znanja in dobrih praks ter razvoj lokalne strokovne skupnosti. Nato bomo osvetlili nekaj ključnih vsebin in gradnikov, ki jih DAMA prinaša podatkovni stroki: DAMA-DMBOK® kot referenčni okvir dobrih praks, DAMA Wheel kot celovit pogled na področja Data Managementa ter CDMP® kot mednarodno certificiranje podatkovnih strokovnjakov. Dotaknili se bomo tudi razvoja DAMA-DMBOK® 3.0, s katerim DAMA sledi spremembam, ki jih prinašajo AI in nove oblike uporabe podatkov. Osrednji del predavanja bo namenjen vprašanju, zakaj Data Management in Data Governance v dobi AI postajata še pomembnejša. AI povečuje potrebo po jasnih definicijah in standardih, kakovosti podatkov, metapodatkih, lastništvu in odgovornostih, pri čemer ima Data Governance ključno povezovalno vlogo. AI ne zmanjšuje potrebe po upravljanju podatkov – ravno nasprotno. Bolj kot podatke uporabljamo za AI, pomembneje je, da jih razumemo, jim zaupamo in jih sistematično upravljamo."
+    },
+    {
+      "id": "t-135",
+      "title": "Windows Server 2025 - Campus cluster - za tiste najzahtevnejše in kritične storitve",
+      "speaker": "Luka Manojlovic",
+      "room": "Mediteranea 1",
+      "start": "2026-09-23T14:00:00+02:00",
+      "end": "2026-09-23T14:45:00+02:00",
+      "track": "Infrastruktura",
+      "level": 200,
+      "demo_pct": 70,
+      "lang": "sl",
+      "synthetic": false,
+      "tags": [
+        "Windows Server",
+        "Strežniki in upravljanje"
+      ],
+      "abstract": "Na letošnjem predavanju si bomo ogledali vzpostavitev in delovanje campus cluster rešitve s praktičnimi primeri odpovedi in preživetja storitev."
+    }
+  ]
+}

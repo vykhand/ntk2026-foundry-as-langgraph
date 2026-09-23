@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Secrets and the local Azure environment — never committed.
+.env
+.azure/
+
+# marimo's per-notebook session state
+notebooks/__marimo__/
+
+# Generated: `uv run build-evaluators` rebuilds these from src/agent/
+evals/evaluators/
+evals/results/

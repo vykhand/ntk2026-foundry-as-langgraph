@@ -1,0 +1,54 @@
+{
+  "agent_name": "ntk-asistent",
+  "latest_version": "8",
+  "versions": [
+    {
+      "version": "1",
+      "status": "active",
+      "created_at": "2026-09-05 19:00:07Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "2",
+      "status": "active",
+      "created_at": "2026-09-05 19:06:41Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "3",
+      "status": "active",
+      "created_at": "2026-09-05 19:33:08Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "4",
+      "status": "active",
+      "created_at": "2026-09-06 13:36:27Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "5",
+      "status": "active",
+      "created_at": "2026-09-06 14:29:01Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "6",
+      "status": "active",
+      "created_at": "2026-09-16 11:27:14Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "7",
+      "status": "active",
+      "created_at": "2026-09-22 17:50:00Z",
+      "traffic_percentage": null
+    },
+    {
+      "version": "8",
+      "status": "active",
+      "created_at": "2026-09-22 19:34:35Z",
+      "traffic_percentage": 100
+    }
+  ]
+}

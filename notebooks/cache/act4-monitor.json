@@ -1,0 +1,7 @@
+{
+  "session_id": "8f2c9a6e4b1d4f0e9c7a2d5b6e1f4a3c",
+  "lines": [
+    "[guard] {\"decision\": \"reject\", \"q\": \"Nina tukaj — v torek bi šla na čim več predavanj o podatkih.\", \"attempt\": 1, \"attendee\": \"nina\", \"attendee_source\": \"question\", \"claimed\": \"nina\", \"known_persona\": true, \"day\": \"2026-09-22\", \"day_source\": \"question\", \"items\": 2, \"enforced\": {\"earliest_start\": \"09:00\", \"latest_end\": \"15:00\", \"min_break_minutes\": 30}, \"problems\": [\"`t-099` se konča ob 16:45, udeleženec pa odide ob 15:00. Odstrani ga.\"]}",
+    "[guard] {\"decision\": \"pass\", \"q\": \"Nina tukaj — v torek bi šla na čim več predavanj o podatkih.\", \"attempt\": 2, \"attendee\": \"nina\", \"attendee_source\": \"question\", \"claimed\": \"nina\", \"known_persona\": true, \"day\": \"2026-09-22\", \"day_source\": \"question\", \"items\": 1, \"enforced\": {\"earliest_start\": \"09:00\", \"latest_end\": \"15:00\", \"min_break_minutes\": 30}, \"problems\": []}"
+  ]
+}

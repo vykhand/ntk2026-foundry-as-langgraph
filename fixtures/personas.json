@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "note": "Fictional attendee profiles (scenario spec §Data plan 5). No real personal data. The `preferences` tool returns one of these; NTK_ATTENDEE selects the default.",
+    "rehearsal_persona": "maja"
+  },
+  "attendees": [
+    {
+      "id": "maja",
+      "name": "Maja",
+      "role": "razvijalka rešitev v oblaku",
+      "interests": ["AI", "Azure", "agenti", "LangGraph", "Foundry"],
+      "tracks": ["AI", "Azure"],
+      "days": ["2026-09-22"],
+      "constraints": {
+        "earliest_start": "09:00",
+        "latest_end": null,
+        "min_break_minutes": 30,
+        "lunch_break": true,
+        "preferred_language": null
+      },
+      "notes_sl": "Zanimata me AI in Azure. Nič pred deveto. Pusti mi luknjo za kavo dopoldne."
+    },
+    {
+      "id": "tomaz",
+      "name": "Tomaž",
+      "role": "sistemski administrator",
+      "interests": ["varnost", "Entra ID", "infrastruktura", "Zero Trust"],
+      "tracks": ["Varnost", "Infrastruktura"],
+      "days": ["2026-09-21", "2026-09-22"],
+      "constraints": {
+        "earliest_start": "08:00",
+        "latest_end": "16:00",
+        "min_break_minutes": null,
+        "lunch_break": true,
+        "preferred_language": "sl"
+      },
+      "notes_sl": "Jutranji tip, ob štirih popoldne grem domov. Predavanja v slovenščini."
+    },
+    {
+      "id": "nina",
+      "name": "Nina",
+      "role": "podatkovna analitičarka",
+      "interests": ["Fabric", "Power BI", "podatki", "Microsoft 365"],
+      "tracks": ["Podatki", "Microsoft 365"],
+      "days": ["2026-09-23"],
+      "constraints": {
+        "earliest_start": "09:00",
+        "latest_end": "15:00",
+        "min_break_minutes": 30,
+        "lunch_break": true,
+        "preferred_language": null
+      },
+      "notes_sl": "V sredo moram oditi ob treh. Rada bi kavo dopoldne in kosilo."
+    }
+  ]
+}
