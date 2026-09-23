@@ -4,6 +4,7 @@ The demo code from the NT konferenca 2026 talk *Pripelji svojega agenta* (Portor
 2026). A plain LangGraph agent that builds an attendee's personal conference agenda, hosted on
 Foundry Agent Service over the Responses protocol — and four
 [marimo](https://docs.marimo.io/) notebooks that walk through the four things the talk demonstrates.
+The slides are in [`slides/ntk2026-bring-your-own-agent.pdf`](slides/ntk2026-bring-your-own-agent.pdf).
 
 The argument of the talk is in one line of `tests/test_purity.py`: **`src/agent/` imports nothing
 from Azure.** The graph that answers on your laptop is the same object that answers in production.
@@ -22,6 +23,7 @@ prompts/          the system prompts, one file per version
 evals/            the golden set and the recipe used to score answers
 scripts/          one command per thing the talk does
 tests/            including test_purity.py, the one that makes the claim above checkable
+slides/           the talk's slides, as a PDF
 ```
 
 ## Running it
